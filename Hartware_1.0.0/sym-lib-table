@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CCF-rescue)(type Legacy)(uri ${KIPRJMOD}/CCF-rescue.lib)(options "")(descr ""))
+  (lib (name power1)(type Legacy)(uri /usr/share/kicad/library/power.lib)(options "")(descr ""))
+)

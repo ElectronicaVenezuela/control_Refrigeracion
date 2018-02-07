@@ -1,0 +1,37 @@
+Id;Identificador;Empaquetado;Cantidad;Identificacion;Precio unit;total;Suministrador y ref
+1;R20,R2,R21,R22,R23;R_0805_HandSoldering;5;10k;8;40;http://tepuyelectronics.com/resistencias/23-resistencias-smd.html#/valores_de_resistencias-10k
+2;SW4,SW1,SW2,SW3;SW_PUSH-12mm;4;SW_PUSH;;0;
+3;C4,C5,C6;C_Disc_D6_P5;3;100nf;166,65;499,95;http://electronica.com.ve/new/catalog/product_info.php?cPath=66&products_id=454
+4;D1,D2,D3,D4;Diode_DO-41_SOD81_Horizontal_RM10;4;1N4007;35,87;143,48;http://electronica.com.ve/new/catalog/product_info.php?products_id=242
+5;D5;Diode_DO-35_SOD27_Horizontal_RM10;1;1N4733A;114,64;114,64;http://electronica.com.ve/new/catalog/product_info.php?cPath=39&products_id=2026
+6;P1;TerminalBlock_Pheonix_MKDS1.5-5pol;1;CONN_01X05;;0;
+7;P2,P3;Pin_Header_Straight_1x02;2;CONN_01X02;;0;
+8;U5,U6,U7;TO-92_Inline_Narrow_Oval;3;MAC97A6;233,62;700,86;http://electronica.com.ve/new/catalog/advanced_search_result.php?keywords=MAC97A6&search_in_description=1&x=7&y=3
+9;U8;7seg-HDC-19x37.5mm;1;HDC-5633;;0;
+10;Y1;Crystal_HC49-U_Vertical;1;4MHZ;;0;
+11;R3,R4,R5;R_0805_HandSoldering;3;330;8;24;http://tepuyelectronics.com/resistencias/23-resistencias-smd.html#/valores_de_resistencias-470
+12;R12,R13,R14;R_0805_HandSoldering;3;2.7k;8;24;http://tepuyelectronics.com/resistencias/23-resistencias-smd.html#/valores_de_resistencias-470
+13;R18,R19;R_0805_HandSoldering;2;20k;8;16;http://tepuyelectronics.com/resistencias/23-resistencias-smd.html#/valores_de_resistencias-470
+14;Q1,Q2,Q3;SOT-23_Handsoldering;3;2N3904;40;120;http://tepuyelectronics.com/transistores/36-mmbt3904.html
+15;U2,U3,U4;DIP-6_W7.62mm_LongPads;3;MOC3021M;576,46;1729,38;http://electronica.com.ve/new/catalog/product_info.php?products_id=652
+16;C2,C3;C_0805_HandSoldering;2;33pf;30;60;http://tepuyelectronics.com/capacitores/25-capacitor-ceramico-01uf-50v.html
+17;U1;SOIC-28_7.5x17.9mm_Pitch1.27mm;1;PIC18F2550;5578,65;5578,65;http://electronica.com.ve/new/catalog/product_info.php?products_id=199
+18;C7;C_Radial_D5_L11_P2;1;10uf;;0;
+19;D6,D7;SOD-123;2;1N4007;61;122;http://tepuyelectronics.com/diodos-rectificadores/34-1n4148w.html
+20;D8;LED-3MM;1;D_C;80;80;http://electronica.com.ve/new/catalog/product_info.php?cPath=25&products_id=3071
+21;D9;LED-3MM;1;D_V;80;80;http://electronica.com.ve/new/catalog/product_info.php?cPath=25&products_id=3071
+22;D10;LED-3MM;1;D_R;80;80;http://electronica.com.ve/new/catalog/product_info.php?cPath=25&products_id=3071
+23;P4;Pin_Header_Straight_1x05;1;CONN_01X05;;0;
+24;R15,R16,R17;Resistor_Horizontal_RM10mm;3;22;26,57;79,71;http://electronica.com.ve/new/catalog/product_info.php?cPath=40&products_id=585
+25;R24,R25,R26;R_0805_HandSoldering;3;220;8;24;http://tepuyelectronics.com/resistencias/23-resistencias-smd.html#/valores_de_resistencias-470
+26;R6,R7,R8;Resistor_Horizontal_RM10mm;3;330;26,57;79,71;http://electronica.com.ve/new/catalog/product_info.php?cPath=40&products_id=585
+27;R9,R10,R11;Resistor_Horizontal_RM10mm;3;100;26,57;79,71;http://electronica.com.ve/new/catalog/product_info.php?cPath=40&products_id=585
+28;C1;C_Radial_D8_L11.5_P3.5;1;680uf;414;414;http://electronica.com.ve/new/catalog/product_info.php?cPath=66&products_id=755
+29;C8;Choke_Horizontal_RM25mm;1;4.7uf;1000;1000;http://electronica.com.ve/new/catalog/product_info.php?cPath=66&products_id=3067
+30;R1;Resistor_Horizontal_RM10mm;1;300k;26,57;26,57;http://electronica.com.ve/new/catalog/product_info.php?cPath=40&products_id=585
+31;R27;R_0805_HandSoldering;1;100;8;8;http://tepuyelectronics.com/resistencias/23-resistencias-smd.html#/valores_de_resistencias-470
+;;;;;Sub total + IVA;11124,66;
+;;;;;costo envio;1400;
+;;;;;mano de obra;10000;
+;;;;;miselaneos;5000;
+;;;;;TOTAL;27.524,66;

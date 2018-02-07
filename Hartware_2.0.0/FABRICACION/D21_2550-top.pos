@@ -1,0 +1,23 @@
+### Module positions - created on 29/05/2016 15:05:31 ###
+### Printed by Pcbnew version kicad 4.0.1-stable
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+D6       1N4007           SOD-123            85.7650   -46.8300       0.0    top
+D7       1N4007           SOD-123            91.0550   -25.4900     180.0    top
+Q2       2N3904           SOT-23_Handsolde   52.3200    -5.1700     180.0    top
+Q3       2N3904           SOT-23_Handsolde   65.6550    -3.2650     270.0    top
+R2       10k              R_0805_HandSolde   85.3400   -22.9500     180.0    top
+R3       330              R_0805_HandSolde   61.2100   -36.2850     180.0    top
+R4       330              R_0805_HandSolde   45.3350   -36.2850     180.0    top
+R5       330              R_0805_HandSolde   30.0950   -36.2850     180.0    top
+R13      2.7k             R_0805_HandSolde   49.1450    -5.1700     270.0    top
+R14      2.7k             R_0805_HandSolde   65.6550    -7.0750       0.0    top
+R18      20k              R_0805_HandSolde   91.0550   -20.4100       0.0    top
+R19      20k              R_0805_HandSolde   91.0550   -22.9500       0.0    top
+R20      10k              R_0805_HandSolde   25.6500   -15.3300      90.0    top
+R21      10k              R_0805_HandSolde   25.6500   -54.7000     270.0    top
+R22      10k              R_0805_HandSolde   75.1800   -15.3300      90.0    top
+R23      10k              R_0805_HandSolde   73.9100   -54.7000      90.0    top
+R27      100              R_0805_HandSolde   24.8300   -29.1400      90.0    top
+## End

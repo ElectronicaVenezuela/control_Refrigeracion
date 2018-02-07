@@ -1,0 +1,14 @@
+### Module positions - created on 29/05/2016 15:05:31 ###
+### Printed by Pcbnew version kicad 4.0.1-stable
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C2       33pf             C_0805_HandSolde   99.3100   -39.4600       0.0    bottom
+C3       33pf             C_0805_HandSolde   99.1900   -36.5400       0.0    bottom
+Q1       2N3904           SOT-23_Handsolde   32.0000    -4.5350     270.0    bottom
+R12      2.7k             R_0805_HandSolde   28.9200   -18.6200     270.0    bottom
+R24      220              R_0805_HandSolde   72.6400   -28.0300      90.0    bottom
+R25      220              R_0805_HandSolde   72.6400   -34.3800      90.0    bottom
+R26      220              R_0805_HandSolde   72.6400   -40.7300      90.0    bottom
+U1       PIC18F2550       SOIC-28_7.5x17.9   89.7850   -34.3800     180.0    bottom
+## End

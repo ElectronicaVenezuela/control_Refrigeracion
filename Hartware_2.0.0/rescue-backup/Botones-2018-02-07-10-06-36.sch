@@ -1,0 +1,216 @@
+EESchema Schematic File Version 2
+LIBS:D21_2550-rescue
+LIBS:PIC
+LIBS:HDC-XX
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6550 3400 0    60   Output ~ 0
+P
+Text HLabel 6550 4700 0    60   Output ~ 0
+S
+Text HLabel 4900 3400 2    60   Output ~ 0
++
+Text HLabel 4900 4700 2    60   Output ~ 0
+-
+$Comp
+L SW_PUSH SW3
+U 1 1 56F1AEBD
+P 7100 3400
+F 0 "SW3" H 7250 3510 50  0000 C CNN
+F 1 "SW_PUSH" H 7100 3320 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH-12mm" H 7100 3400 50  0001 C CNN
+F 3 "" H 7100 3400 50  0000 C CNN
+	1    7100 3400
+	1    0    0    -1
+$EndComp
+$Comp
+L SW_PUSH SW4
+U 1 1 56F1AF0A
+P 7100 4700
+F 0 "SW4" H 7250 4810 50  0000 C CNN
+F 1 "SW_PUSH" H 7100 4620 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH-12mm" H 7100 4700 50  0001 C CNN
+F 3 "" H 7100 4700 50  0000 C CNN
+	1    7100 4700
+	1    0    0    -1
+$EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 56F1AF41
+P 4300 3400
+F 0 "SW1" H 4450 3510 50  0000 C CNN
+F 1 "SW_PUSH" H 4300 3320 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH-12mm" H 4300 3400 50  0001 C CNN
+F 3 "" H 4300 3400 50  0000 C CNN
+	1    4300 3400
+	1    0    0    -1
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 56F1AF64
+P 4300 4700
+F 0 "SW2" H 4450 4810 50  0000 C CNN
+F 1 "SW_PUSH" H 4300 4620 50  0000 C CNN
+F 2 "Buttons_Switches_ThroughHole:SW_PUSH-12mm" H 4300 4700 50  0001 C CNN
+F 3 "" H 4300 4700 50  0000 C CNN
+	1    4300 4700
+	1    0    0    -1
+$EndComp
+Wire Wire Line
+	3750 3400 3750 5050
+Wire Wire Line
+	3750 4700 4000 4700
+Wire Wire Line
+	4600 4700 4900 4700
+Wire Wire Line
+	4750 4400 4750 4700
+Connection ~ 4750 4700
+Wire Wire Line
+	3750 3400 4000 3400
+Wire Wire Line
+	4600 3400 4900 3400
+Wire Wire Line
+	4750 3000 4750 3400
+Connection ~ 4750 3400
+Wire Wire Line
+	6550 3400 6800 3400
+Wire Wire Line
+	6700 3000 6700 3400
+Connection ~ 6700 3400
+Wire Wire Line
+	6700 4400 6700 4700
+Wire Wire Line
+	6550 4700 6800 4700
+Connection ~ 6700 4700
+Wire Wire Line
+	7400 4700 7600 4700
+Wire Wire Line
+	7600 3400 7600 5050
+Wire Wire Line
+	7400 3400 7600 3400
+Text GLabel 6700 2450 1    60   Input ~ 0
+VDD
+Text GLabel 6700 3950 1    60   Input ~ 0
+VDD
+Text GLabel 4750 3950 1    60   Input ~ 0
+VDD
+Text GLabel 4750 2450 1    60   Input ~ 0
+VDD
+Wire Wire Line
+	4750 2450 4750 2700
+Wire Wire Line
+	6700 2450 6700 2700
+Wire Wire Line
+	6700 3950 6700 4100
+Wire Wire Line
+	4750 3950 4750 4100
+$Comp
+L R-RESCUE-D21_2550 R20
+U 1 1 56FD7B86
+P 4750 2850
+F 0 "R20" V 4830 2850 50  0000 C CNN
+F 1 "10k" V 4750 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4680 2850 50  0001 C CNN
+F 3 "" H 4750 2850 50  0000 C CNN
+	1    4750 2850
+	1    0    0    -1
+$EndComp
+$Comp
+L R-RESCUE-D21_2550 R22
+U 1 1 56FD7C8A
+P 6700 2850
+F 0 "R22" V 6780 2850 50  0000 C CNN
+F 1 "10k" V 6700 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6630 2850 50  0001 C CNN
+F 3 "" H 6700 2850 50  0000 C CNN
+	1    6700 2850
+	1    0    0    -1
+$EndComp
+$Comp
+L R-RESCUE-D21_2550 R23
+U 1 1 56FD7D5D
+P 6700 4250
+F 0 "R23" V 6780 4250 50  0000 C CNN
+F 1 "10k" V 6700 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6630 4250 50  0001 C CNN
+F 3 "" H 6700 4250 50  0000 C CNN
+	1    6700 4250
+	1    0    0    -1
+$EndComp
+$Comp
+L R-RESCUE-D21_2550 R21
+U 1 1 56FD7F21
+P 4750 4250
+F 0 "R21" V 4830 4250 50  0000 C CNN
+F 1 "10k" V 4750 4250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4680 4250 50  0001 C CNN
+F 3 "" H 4750 4250 50  0000 C CNN
+	1    4750 4250
+	1    0    0    -1
+$EndComp
+$Comp
+L GND-RESCUE-D21_2550 #PWR015
+U 1 1 56FD823A
+P 7600 5050
+F 0 "#PWR015" H 7600 4800 50  0001 C CNN
+F 1 "GND" H 7600 4900 50  0000 C CNN
+F 2 "" H 7600 5050 50  0000 C CNN
+F 3 "" H 7600 5050 50  0000 C CNN
+	1    7600 5050
+	1    0    0    -1
+$EndComp
+Connection ~ 7600 4700
+Connection ~ 3750 4700
+$Comp
+L GND-RESCUE-D21_2550 #PWR016
+U 1 1 56FD89AE
+P 3750 5050
+F 0 "#PWR016" H 3750 4800 50  0001 C CNN
+F 1 "GND" H 3750 4900 50  0000 C CNN
+F 2 "" H 3750 5050 50  0000 C CNN
+F 3 "" H 3750 5050 50  0000 C CNN
+	1    3750 5050
+	1    0    0    -1
+$EndComp
+$EndSCHEMATC

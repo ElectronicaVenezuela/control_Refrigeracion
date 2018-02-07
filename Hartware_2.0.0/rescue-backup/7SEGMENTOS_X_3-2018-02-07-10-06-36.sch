@@ -1,0 +1,374 @@
+EESchema Schematic File Version 2
+LIBS:D21_2550-rescue
+LIBS:PIC
+LIBS:HDC-XX
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3250 1450 0    60   Output ~ 0
+E1
+Text HLabel 3250 2200 0    60   Output ~ 0
+E2
+Text HLabel 3250 2900 0    60   Output ~ 0
+E3
+Text HLabel 7050 3700 2    60   Input ~ 0
+A
+Text HLabel 7050 3800 2    60   Input ~ 0
+B
+Text HLabel 7050 3900 2    60   Input ~ 0
+C
+Text HLabel 7050 4000 2    60   Input ~ 0
+D
+Text HLabel 7050 4100 2    60   Input ~ 0
+E
+Text HLabel 7050 4200 2    60   Input ~ 0
+F
+Text HLabel 7050 4300 2    60   Input ~ 0
+G
+Wire Wire Line
+	4800 3500 4800 3350
+Wire Wire Line
+	4800 3350 6600 3350
+Wire Wire Line
+	5400 3350 5400 3500
+Wire Wire Line
+	5900 4600 5900 4750
+Wire Wire Line
+	5900 4750 6600 4750
+Wire Wire Line
+	6600 4750 6600 3350
+Connection ~ 5400 3350
+Wire Wire Line
+	5100 3500 5100 3250
+Wire Wire Line
+	5100 3250 6750 3250
+Wire Wire Line
+	5500 3250 5500 3500
+Wire Wire Line
+	6000 3250 6000 3500
+Connection ~ 5500 3250
+Wire Wire Line
+	5200 3500 5200 3400
+Wire Wire Line
+	5200 3400 6700 3400
+Wire Wire Line
+	6100 3400 6100 3500
+Wire Wire Line
+	5600 3500 5600 3400
+Connection ~ 5600 3400
+Wire Wire Line
+	6000 4700 6000 4600
+Wire Wire Line
+	5100 4700 6700 4700
+Wire Wire Line
+	5500 4700 5500 4600
+Wire Wire Line
+	5100 4600 5100 4700
+Connection ~ 5500 4700
+Wire Wire Line
+	5800 4600 5800 4800
+Wire Wire Line
+	4900 4800 6750 4800
+Wire Wire Line
+	4900 4800 4900 4600
+Wire Wire Line
+	5400 4600 5400 4800
+Connection ~ 5400 4800
+Wire Wire Line
+	5700 4650 5700 4600
+Wire Wire Line
+	4800 4650 6800 4650
+Wire Wire Line
+	5300 4650 5300 4600
+Wire Wire Line
+	4800 4600 4800 4650
+Connection ~ 5300 4650
+Wire Wire Line
+	4900 3500 4900 3450
+Wire Wire Line
+	4900 3450 6850 3450
+Wire Wire Line
+	5300 3450 5300 3500
+Wire Wire Line
+	5900 3450 5900 3500
+Connection ~ 5300 3450
+Wire Wire Line
+	5800 3500 5800 3200
+Wire Wire Line
+	5800 3200 5850 3200
+Wire Wire Line
+	5850 3200 5850 3100
+Wire Wire Line
+	5650 3100 5650 3200
+Wire Wire Line
+	5650 3200 5700 3200
+Wire Wire Line
+	5700 3200 5700 3500
+Wire Wire Line
+	5000 3500 5000 3100
+Wire Wire Line
+	7050 3700 6750 3700
+Wire Wire Line
+	6750 3700 6750 3250
+Connection ~ 6000 3250
+Wire Wire Line
+	7050 3800 6700 3800
+Wire Wire Line
+	6700 3800 6700 3400
+Connection ~ 6100 3400
+Wire Wire Line
+	7050 3900 6700 3900
+Wire Wire Line
+	6700 3900 6700 4700
+Connection ~ 6000 4700
+Wire Wire Line
+	7050 4000 6750 4000
+Wire Wire Line
+	6750 4000 6750 4800
+Connection ~ 5800 4800
+Wire Wire Line
+	6800 4650 6800 4100
+Wire Wire Line
+	6800 4100 7050 4100
+Connection ~ 5700 4650
+Wire Wire Line
+	7050 4200 6850 4200
+Wire Wire Line
+	6850 4200 6850 3450
+Connection ~ 5900 3450
+Wire Wire Line
+	7050 4300 6600 4300
+Connection ~ 6600 4300
+Wire Wire Line
+	4300 1700 4300 1650
+Wire Wire Line
+	4300 2450 4300 2400
+Wire Wire Line
+	4300 3150 4300 3100
+Wire Wire Line
+	4000 2900 3800 2900
+Wire Wire Line
+	3500 2900 3250 2900
+Wire Wire Line
+	3500 2200 3250 2200
+Wire Wire Line
+	3800 2200 4000 2200
+Wire Wire Line
+	3800 1450 4000 1450
+Wire Wire Line
+	3500 1450 3250 1450
+Wire Wire Line
+	5000 2800 5000 1000
+Wire Wire Line
+	5000 1000 4300 1000
+Wire Wire Line
+	4300 1000 4300 1250
+Wire Wire Line
+	5650 2800 5650 1900
+Wire Wire Line
+	5650 1900 4300 1900
+Wire Wire Line
+	4300 1900 4300 2000
+Wire Wire Line
+	5850 2800 5850 2600
+Wire Wire Line
+	5850 2600 4300 2600
+Wire Wire Line
+	4300 2600 4300 2700
+$Comp
+L R-RESCUE-D21_2550 R17
+U 1 1 56FD96F5
+P 5850 2950
+F 0 "R17" V 5930 2950 50  0000 C CNN
+F 1 "22" V 5850 2950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5780 2950 50  0001 C CNN
+F 3 "" H 5850 2950 50  0000 C CNN
+	1    5850 2950
+	1    0    0    -1
+$EndComp
+$Comp
+L R-RESCUE-D21_2550 R16
+U 1 1 56FD973A
+P 5650 2950
+F 0 "R16" V 5730 2950 50  0000 C CNN
+F 1 "22" V 5650 2950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 5580 2950 50  0001 C CNN
+F 3 "" H 5650 2950 50  0000 C CNN
+	1    5650 2950
+	1    0    0    -1
+$EndComp
+$Comp
+L R-RESCUE-D21_2550 R15
+U 1 1 56FD977B
+P 5000 2950
+F 0 "R15" V 5080 2950 50  0000 C CNN
+F 1 "22" V 5000 2950 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 4930 2950 50  0001 C CNN
+F 3 "" H 5000 2950 50  0000 C CNN
+	1    5000 2950
+	1    0    0    -1
+$EndComp
+$Comp
+L R-RESCUE-D21_2550 R12
+U 1 1 56FD980A
+P 3650 1450
+F 0 "R12" V 3730 1450 50  0000 C CNN
+F 1 "2.7k" V 3650 1450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3580 1450 50  0001 C CNN
+F 3 "" H 3650 1450 50  0000 C CNN
+	1    3650 1450
+	0    1    1    0
+$EndComp
+$Comp
+L R-RESCUE-D21_2550 R13
+U 1 1 56FD994B
+P 3650 2200
+F 0 "R13" V 3730 2200 50  0000 C CNN
+F 1 "2.7k" V 3650 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3580 2200 50  0001 C CNN
+F 3 "" H 3650 2200 50  0000 C CNN
+	1    3650 2200
+	0    1    1    0
+$EndComp
+$Comp
+L R-RESCUE-D21_2550 R14
+U 1 1 56FD9A24
+P 3650 2900
+F 0 "R14" V 3730 2900 50  0000 C CNN
+F 1 "2.7k" V 3650 2900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3580 2900 50  0001 C CNN
+F 3 "" H 3650 2900 50  0000 C CNN
+	1    3650 2900
+	0    1    1    0
+$EndComp
+$Comp
+L Q_NPN_CBE Q1
+U 1 1 56FD9B9C
+P 4200 1450
+F 0 "Q1" H 4500 1500 50  0000 R CNN
+F 1 "2N3904" H 4250 1250 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4400 1550 50  0001 C CNN
+F 3 "" H 4200 1450 50  0000 C CNN
+	1    4200 1450
+	1    0    0    -1
+$EndComp
+$Comp
+L Q_NPN_CBE Q2
+U 1 1 56FD9D81
+P 4200 2200
+F 0 "Q2" H 4500 2250 50  0000 R CNN
+F 1 "2N3904" H 4250 2000 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4400 2300 50  0001 C CNN
+F 3 "" H 4200 2200 50  0000 C CNN
+	1    4200 2200
+	1    0    0    -1
+$EndComp
+$Comp
+L Q_NPN_CBE Q3
+U 1 1 56FD9E8B
+P 4200 2900
+F 0 "Q3" H 4500 2950 50  0000 R CNN
+F 1 "2N3904" H 4250 2700 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4400 3000 50  0001 C CNN
+F 3 "" H 4200 2900 50  0000 C CNN
+	1    4200 2900
+	1    0    0    -1
+$EndComp
+$Comp
+L GND-RESCUE-D21_2550 #PWR010
+U 1 1 56FD9F8C
+P 4300 3150
+F 0 "#PWR010" H 4300 2900 50  0001 C CNN
+F 1 "GND" H 4300 3000 50  0000 C CNN
+F 2 "" H 4300 3150 50  0000 C CNN
+F 3 "" H 4300 3150 50  0000 C CNN
+	1    4300 3150
+	1    0    0    -1
+$EndComp
+$Comp
+L GND-RESCUE-D21_2550 #PWR011
+U 1 1 56FDA0B8
+P 4300 2450
+F 0 "#PWR011" H 4300 2200 50  0001 C CNN
+F 1 "GND" H 4300 2300 50  0000 C CNN
+F 2 "" H 4300 2450 50  0000 C CNN
+F 3 "" H 4300 2450 50  0000 C CNN
+	1    4300 2450
+	1    0    0    -1
+$EndComp
+$Comp
+L GND-RESCUE-D21_2550 #PWR012
+U 1 1 56FDA1BC
+P 4300 1700
+F 0 "#PWR012" H 4300 1450 50  0001 C CNN
+F 1 "GND" H 4300 1550 50  0000 C CNN
+F 2 "" H 4300 1700 50  0000 C CNN
+F 3 "" H 4300 1700 50  0000 C CNN
+	1    4300 1700
+	1    0    0    -1
+$EndComp
+NoConn ~ 6100 4600
+NoConn ~ 5200 4600
+NoConn ~ 5000 4600
+Text HLabel 7050 4400 2    60   Input ~ 0
+DP
+Wire Wire Line
+	7050 4400 6850 4400
+Wire Wire Line
+	6850 4400 6850 4850
+Wire Wire Line
+	6850 4850 5600 4850
+$Comp
+L HDC-5633 U8
+U 1 1 56D509C3
+P 5450 4050
+F 0 "U8" H 5450 3925 60  0000 C CNN
+F 1 "HDC-5633" V 6350 4050 60  0000 C CNN
+F 2 "LIB:7seg-HDC-19x37.5mm" H 4550 4500 60  0001 C CNN
+F 3 "" H 4550 4500 60  0000 C CNN
+	1    5450 4050
+	1    0    0    -1
+$EndComp
+Wire Wire Line
+	5600 4850 5600 4600
+$EndSCHEMATC

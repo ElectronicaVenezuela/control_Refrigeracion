@@ -1,0 +1,77 @@
+
+ROM used:   5848 (18%)
+            5848 (18%) including unused fragments
+
+            2 Average locations per line
+            11 Average locations per statement
+
+RAM used:   89 (4%) at main() level
+            166 (8%) worst case
+
+Stack used: 5/31 worst case (4 in main + 1 for interrupts)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  484   242  44  deshiela.c
+   32     0   0  deshiela.h
+  412     0   0  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\devices\18F2550.h
+ 2229   257  47  ..\..\..\..\..\..\..\..\Program Files (x86)\PICC\drivers\math.h
+  176    40   7  7segmentos.h
+   65    12   2  letras.h
+----- -----
+ 3398   551 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     40   0   1             @delay_ms1
+0    120   1  10             @FLT
+0     56   0   4             @SFTOI
+0     54   0   2             @ITOF
+0    242   2  11             @MULFF
+0    618   5  16             @ADDFF
+0    346   3  14             @DIVFF
+0     72   1   2             @SITOF
+0    836   7  25   979 10.0  log
+0    284   2   3  1183  5.9  VerDisplay
+0     76   1   2             @MUL88
+0     72   1   4             @DIVS88
+0    118   1   4   351  3.9  letra
+0     40   0   3             @DIV88
+0     52   0   0   310  3.2  TIMER1_isr
+0    206   2   3   408  6.1  CONFIGURACION
+0    282   2   0   226  3.1  MAIN
+0     38   0   0   200  3.5  RELOJ
+0    214   2   2   592  7.1  PROGRAMAR_TERMISTOR
+0    338   3   3   915  8.2  PROGRAMAR_PAQUETES
+0    156   1   2   950  5.8  PROGRAMAR
+0     44   0   0             @goto10783
+0    212   2   4   298  2.3  LEER_TEMPERATURA
+0    630   5  36   412  4.9  CONVER_TEMPERATURA
+0     42   0   2   179  4.0  MODIFIC
+0     82   1   2   513  7.6  MUESTRA
+0      8   0   0    50  1.5  RESET_PORT
+0    176   2   4   281  4.6  PROGRAMAR
+0    224   2   2  1654  7.4  COMPARADOR
+ Inline        0             @cinit1
+
+Program metrics:
+    Functions               17
+    Statements              551
+    Comments                616
+    Volume (V)              15641
+    Difficulty (D)          88.5
+    Effort to implement (E) 1383942
+    Time to implement (T)   21 hours, 21 minutes
+    Est Delivered Bugs (B)  4
+    Cyclomatic Complexity   59
+    Maintainability (MI)    83
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000AC   166  0  
+000AE-07FFE  5678  26916  
+
+
+

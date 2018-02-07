@@ -1,0 +1,75 @@
+Source,C:/Users/Jonathan/Dropbox/Kicad/KICAD_new/deshielador_18F2550/D21_2550.sch
+Kicad Rev,Eeschema 4.0.1-stable
+Generated Date,05/04/2016 9:10:47
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,Library,Library Ref
+D5,5.1v,device,ZENER
+C1,680uf,device,CP1
+R1,300k,device,R
+D1,D,device,D
+D3,D,device,D
+D2,D,device,D
+D4,D,device,D
+C8,4.7uf,device,C
+R27,100,device,R
+Y1,Crystal,device,Crystal
+C2,33pf,device,C
+C3,33pf,device,C
+U1,PIC18F2550,PIC,PIC18F2550
+R2,10k,device,R
+C7,10uf,device,CP1_Small
+D7,D,device,D
+D6,D,device,D
+P4,CONN_01X05,conn,CONN_01X05
+R26,220,device,R
+R25,220,device,R
+R24,220,device,R
+D10,D_R,device,Led_Small
+D9,D_V,device,Led_Small
+D8,D_C,device,Led_Small
+P1,CONN_01X05,conn,CONN_01X05
+U5,MAC97A6,D21_2550-cache,MAC97A6
+U6,MAC97A6,D21_2550-cache,MAC97A6
+U7,MAC97A6,D21_2550-cache,MAC97A6
+R3,330,device,R
+R6,330,device,R
+R9,R,device,R
+R10,R,device,R
+R7,330,device,R
+R4,330,device,R
+R11,R,device,R
+R8,330,device,R
+R5,330,device,R
+C6,C,device,C
+C5,C,device,C
+C4,C,device,C
+U2,MOC3021M,opto,MOC3021M
+U3,MOC3021M,opto,MOC3021M
+U4,MOC3021M,opto,MOC3021M
+U8,HDC-5633,HDC-XX,HDC-5633
+R17,22,device,R
+R16,22,device,R
+R15,22,device,R
+R12,2.7k,device,R
+R13,2.7k,device,R
+R14,2.7k,device,R
+Q1,Q_NPN_CBE,device,Q_NPN_CBE
+Q2,Q_NPN_CBE,device,Q_NPN_CBE
+Q3,Q_NPN_CBE,device,Q_NPN_CBE
+P2,CONN_01X02,conn,CONN_01X02
+P3,CONN_01X02,conn,CONN_01X02
+R18,R,device,R
+R19,R,device,R
+SW3,SW_PUSH,device,SW_PUSH
+SW4,SW_PUSH,device,SW_PUSH
+SW1,SW_PUSH,device,SW_PUSH
+SW2,SW_PUSH,device,SW_PUSH
+R20,R,device,R
+R22,R,device,R
+R23,R,device,R
+R21,R,device,R

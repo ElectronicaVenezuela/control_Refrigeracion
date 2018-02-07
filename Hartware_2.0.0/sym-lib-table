@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name D21_2550-rescue)(type Legacy)(uri ${KIPRJMOD}/D21_2550-rescue.lib)(options "")(descr ""))
+  (lib (name power1)(type Legacy)(uri /usr/share/kicad/library/power.lib)(options "")(descr ""))
+)
