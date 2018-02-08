@@ -14,194 +14,225 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 3750 3600 0    60   Input ~ 0
+Text GLabel 3650 4250 0    60   Input ~ 0
 Nac
-Text GLabel 3750 3400 0    60   Input ~ 0
+Text GLabel 3650 3650 0    60   Input ~ 0
 Vac
-$Comp
-L Device:D_Zener D5
-U 1 1 56F22E6D
-P 7400 3350
-F 0 "D5" H 7400 3450 50  0000 C CNN
-F 1 "1N4733A" H 7400 3250 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-35_SOD27_Horizontal_RM10" H 7400 3350 50  0001 C CNN
-F 3 "" H 7400 3350 50  0000 C CNN
-	1    7400 3350
-	0    1    1    0   
-$EndComp
-Text GLabel 7400 2450 1    60   Input ~ 0
+Text GLabel 8050 3650 2    60   Output ~ 0
 VDD
 $Comp
 L Device:CP1 C1
 U 1 1 56F69FA4
-P 6600 3400
-F 0 "C1" H 6650 3500 50  0000 L CNN
-F 1 "680uf" H 6650 3300 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D8_L11.5_P3.5" H 6600 3400 60  0001 C CNN
-F 3 "" H 6600 3400 60  0000 C CNN
-	1    6600 3400
+P 5200 3900
+F 0 "C1" H 5250 4000 50  0000 L CNN
+F 1 "4,7uF" H 5250 3800 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 5200 3900 60  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_A4072_A759.pdf" H 5200 3900 60  0001 C CNN
+F 4 "A759KS475M2EAAE496" H 5200 3900 50  0001 C CNN "Campo4"
+	1    5200 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 56F82842
-P 4650 3150
-F 0 "R1" V 4730 3150 40  0000 C CNN
-F 1 "300k" V 4657 3151 40  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 4580 3150 30  0001 C CNN
-F 3 "" H 4650 3150 30  0000 C CNN
-	1    4650 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5450 2600 5850 2600
-Wire Wire Line
-	5850 2600 6600 2600
-Wire Wire Line
-	6600 2600 6850 2600
-Wire Wire Line
-	5450 4350 5850 4350
-Wire Wire Line
-	5850 4350 6050 4350
-Wire Wire Line
-	6050 4350 6600 4350
-Wire Wire Line
-	6600 4350 7400 4350
-Connection ~ 5850 3600
-Connection ~ 5450 3400
-Connection ~ 5850 2600
-Connection ~ 5850 4350
-Connection ~ 6600 2600
-Wire Wire Line
-	6050 4350 6050 4450
-Connection ~ 6050 4350
-Wire Wire Line
-	5450 4350 5450 4050
-Wire Wire Line
-	5850 4050 5850 4350
-Wire Wire Line
-	5850 3150 5850 3600
-Wire Wire Line
-	5850 3600 5850 3750
-Wire Wire Line
-	5450 3150 5450 3400
-Wire Wire Line
-	5450 3400 5450 3750
-Wire Wire Line
-	5450 2850 5450 2600
-Wire Wire Line
-	5850 2850 5850 2600
-Wire Wire Line
-	6600 3550 6600 4350
-Wire Wire Line
-	3750 3600 5850 3600
-$Comp
-L Device:D D1
-U 1 1 56FC9299
-P 5450 3000
-F 0 "D1" H 5450 3100 50  0000 C CNN
-F 1 "1N4007" H 5450 2900 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 5450 3000 50  0001 C CNN
-F 3 "" H 5450 3000 50  0000 C CNN
-	1    5450 3000
+P 4900 3650
+F 0 "R1" V 4980 3650 40  0000 C CNN
+F 1 "300k" V 4907 3651 40  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder" V 4830 3650 30  0001 C CNN
+F 3 "" H 4900 3650 30  0000 C CNN
+	1    4900 3650
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:D D3
-U 1 1 56FC930C
-P 5850 3000
-F 0 "D3" H 5850 3100 50  0000 C CNN
-F 1 "1N4007" H 5850 2900 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 5850 3000 50  0001 C CNN
-F 3 "" H 5850 3000 50  0000 C CNN
-	1    5850 3000
+L Mss_devices:PBO-3-S5 U8
+U 1 1 5A7C683A
+P 6450 3800
+F 0 "U8" H 6450 4197 60  0000 C CNN
+F 1 "PBO-3-S5" H 6450 4091 60  0000 C CNN
+F 2 "Devices_MSS:PBO-3-S5" H 6350 3900 60  0001 C CNN
+F 3 "http://www.cui.com/product/resource/pbo-3.pdf" H 6350 3900 60  0001 C CNN
+F 4 "PBO-3-S5" H 6450 3800 50  0001 C CNN "Campo4"
+	1    6450 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3750 5200 3750
+Wire Wire Line
+	5850 3950 5400 3950
+Wire Wire Line
+	5400 3950 5400 4100
+Wire Wire Line
+	5400 4100 5200 4100
+Wire Wire Line
+	5200 4100 5200 4050
+Wire Wire Line
+	5850 4050 5550 4050
+Wire Wire Line
+	5550 4050 5550 4250
+Wire Wire Line
+	5550 4250 4200 4250
+$Comp
+L Device:L_Core_Ferrite L1
+U 1 1 5A7D0814
+P 5400 3650
+F 0 "L1" V 5625 3650 50  0000 C CNN
+F 1 "SDR0503-472JL" V 5534 3650 50  0000 C CNN
+F 2 "Devices_MSS:SDR0503-XXX" H 5400 3650 50  0001 C CNN
+F 3 "http://www.bourns.com/docs/Product-Datasheets/SDR0503.pdf" H 5400 3650 50  0001 C CNN
+F 4 "SDR0503-472JL" V 5400 3650 50  0001 C CNN "Campo4"
+	1    5400 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 3650 5850 3650
+Wire Wire Line
+	5250 3650 5050 3650
+$Comp
+L Device:Thermistor_NTC TH1
+U 1 1 5A7D09D6
+P 4450 3650
+F 0 "TH1" V 4160 3650 50  0000 C CNN
+F 1 "Thermistor_NTC" V 4251 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 4450 3700 50  0001 C CNN
+F 3 "~" H 4450 3700 50  0001 C CNN
+	1    4450 3650
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4600 3650 4750 3650
 $Comp
-L Device:D D2
-U 1 1 56FC93DD
-P 5450 3900
-F 0 "D2" H 5450 4000 50  0000 C CNN
-F 1 "1N4007" H 5450 3800 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 5450 3900 50  0001 C CNN
-F 3 "" H 5450 3900 50  0000 C CNN
-	1    5450 3900
-	0    1    1    0   
+L Device:Varistor RV1
+U 1 1 5A7D0BB3
+P 4200 3950
+F 0 "RV1" H 3900 4000 50  0000 L CNN
+F 1 "B72214S0351K101" H 3350 3900 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" V 4130 3950 50  0001 C CNN
+F 3 "https://en.tdk.eu/inf/70/db/var_11/SIOV_Leaded_StandarD.pdf" H 4200 3950 50  0001 C CNN
+F 4 "B72214S0351K101" H 4200 3950 50  0001 C CNN "Campo4"
+	1    4200 3950
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4200 3800 4200 3650
+Wire Wire Line
+	4200 3650 4300 3650
+Wire Wire Line
+	4200 4100 4200 4250
+Connection ~ 4200 4250
+Wire Wire Line
+	4200 4250 3650 4250
+Wire Wire Line
+	3650 3650 4200 3650
+Connection ~ 4200 3650
 $Comp
-L Device:D D4
-U 1 1 56FC9402
-P 5850 3900
-F 0 "D4" H 5850 4000 50  0000 C CNN
-F 1 "1N4007" H 5850 3800 50  0000 C CNN
-F 2 "Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10" H 5850 3900 50  0001 C CNN
-F 3 "" H 5850 3900 50  0000 C CNN
-	1    5850 3900
-	0    1    1    0   
+L Device:C C8
+U 1 1 5A7D114C
+P 6500 4350
+F 0 "C8" V 6340 4350 50  0000 C CNN
+F 1 "1nF" V 6249 4350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 6538 4200 50  0001 C CNN
+F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" H 6500 4350 50  0001 C CNN
+F 4 "C2012C0G2W102J060AA" V 6500 4350 50  0001 C CNN "Campo4"
+	1    6500 4350
+	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	6350 4350 5200 4350
+Wire Wire Line
+	5200 4350 5200 4100
+Connection ~ 5200 4100
 $Comp
-L power1:GND #PWR01
-U 1 1 56FDA682
-P 6050 4450
-F 0 "#PWR01" H 6050 4200 50  0001 C CNN
-F 1 "GND" H 6050 4300 50  0000 C CNN
-F 2 "" H 6050 4450 50  0000 C CNN
-F 3 "" H 6050 4450 50  0000 C CNN
-	1    6050 4450
+L Device:CP1 C9
+U 1 1 5A7D13BE
+P 7250 3850
+F 0 "C9" H 7365 3896 50  0000 L CNN
+F 1 "CP1" H 7365 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 7250 3850 50  0001 C CNN
+F 3 "~" H 7250 3850 50  0001 C CNN
+	1    7250 3850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C8
-U 1 1 5702B30B
-P 4650 3400
-AR Path="/5702B30B" Ref="C8"  Part="1" 
-AR Path="/56D4C312/5702B30B" Ref="C8"  Part="1" 
-F 0 "C8" H 4675 3500 50  0000 L CNN
-F 1 "4.7uf" H 4675 3300 50  0000 L CNN
-F 2 "Choke_Axial_ThroughHole:Choke_Horizontal_RM25mm" H 4688 3250 50  0001 C CNN
-F 3 "" H 4650 3400 50  0000 C CNN
-	1    4650 3400
-	0    1    1    0   
+L Device:CP1 C10
+U 1 1 5A7D141C
+P 7750 3850
+F 0 "C10" H 7865 3896 50  0000 L CNN
+F 1 "CP1" H 7865 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 7750 3850 50  0001 C CNN
+F 3 "~" H 7750 3850 50  0001 C CNN
+	1    7750 3850
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 3400 5050 3400
-Wire Wire Line
-	5050 3400 5450 3400
-Wire Wire Line
-	4500 3400 4250 3400
-Wire Wire Line
-	4250 3400 3750 3400
-Wire Wire Line
-	4500 3150 4250 3150
-Wire Wire Line
-	4250 3150 4250 3400
-Connection ~ 4250 3400
-Wire Wire Line
-	4800 3150 5050 3150
-Wire Wire Line
-	5050 3150 5050 3400
-Connection ~ 5050 3400
 $Comp
-L Device:R R27
-U 1 1 5702BA59
-P 7000 2600
-F 0 "R27" V 7080 2600 50  0000 C CNN
-F 1 "100" V 7000 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 6930 2600 50  0001 C CNN
-F 3 "" H 7000 2600 50  0000 C CNN
-	1    7000 2600
-	0    1    1    0   
+L Device:L_Core_Ferrite L2
+U 1 1 5A7D1470
+P 7500 3650
+F 0 "L2" V 7725 3650 50  0000 C CNN
+F 1 "74479776247" V 7634 3650 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 7500 3650 50  0001 C CNN
+F 3 "http://katalog.we-online.de/pbs/datasheet/74479776247.pdf" H 7500 3650 50  0001 C CNN
+F 4 "74479776247" V 7500 3650 50  0001 C CNN "Campo4"
+	1    7500 3650
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7150 2600 7400 2600
+	7350 3650 7250 3650
 Wire Wire Line
-	7400 2450 7400 2600
+	7250 3700 7250 3650
+Connection ~ 7250 3650
 Wire Wire Line
-	7400 2600 7400 3200
-Connection ~ 7400 2600
+	7250 3650 7050 3650
 Wire Wire Line
-	6600 3250 6600 2600
+	7750 3700 7750 3650
 Wire Wire Line
-	7400 4350 7400 3500
-Connection ~ 6600 4350
+	7750 3650 7650 3650
+Wire Wire Line
+	7050 4050 7250 4050
+Wire Wire Line
+	7750 4050 7750 4000
+Wire Wire Line
+	7250 4000 7250 4050
+Connection ~ 7250 4050
+Wire Wire Line
+	7250 4050 7750 4050
+Wire Wire Line
+	6650 4350 7250 4350
+Wire Wire Line
+	7250 4350 7250 4050
+Wire Wire Line
+	8050 3650 7750 3650
+Connection ~ 7750 3650
+$Comp
+L power:GND #PWR01
+U 1 1 5A7D3146
+P 7750 4100
+F 0 "#PWR01" H 7750 3850 50  0001 C CNN
+F 1 "GND" H 7755 3927 50  0000 C CNN
+F 2 "" H 7750 4100 50  0001 C CNN
+F 3 "" H 7750 4100 50  0001 C CNN
+	1    7750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4100 7750 4050
+Connection ~ 7750 4050
+$Comp
+L Device:CP1 C11
+U 1 1 5A7D40B9
+P 4900 3900
+F 0 "C11" H 4950 4000 50  0000 L CNN
+F 1 "4,7uF" H 4950 3800 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 4900 3900 60  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_A4072_A759.pdf" H 4900 3900 60  0001 C CNN
+F 4 "A759KS475M2EAAE496" H 4900 3900 50  0001 C CNN "Campo4"
+	1    4900 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3750 5200 3750
+Connection ~ 5200 3750
+Wire Wire Line
+	5200 4100 4900 4100
+Wire Wire Line
+	4900 4100 4900 4050
 $EndSCHEMATC
