@@ -18,7 +18,7 @@ Text GLabel 3650 4250 0    60   Input ~ 0
 Nac
 Text GLabel 3650 3650 0    60   Input ~ 0
 Vac
-Text GLabel 8050 3650 2    60   Output ~ 0
+Text GLabel 8350 3650 2    60   Output ~ 0
 VDD
 $Comp
 L Device:CP1 C1
@@ -146,9 +146,10 @@ L Device:CP1 C9
 U 1 1 5A7D13BE
 P 7250 3850
 F 0 "C9" H 7365 3896 50  0000 L CNN
-F 1 "CP1" H 7365 3805 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 7250 3850 50  0001 C CNN
-F 3 "~" H 7250 3850 50  0001 C CNN
+F 1 "270uF" H 7365 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 7250 3850 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Capacitors%20PDFs/FKS_Series_Type_V.pdf" H 7250 3850 50  0001 C CNN
+F 4 "EEE-FKC271XSP" H 7250 3850 50  0001 C CNN "Campo4"
 	1    7250 3850
 	1    0    0    -1  
 $EndComp
@@ -157,9 +158,10 @@ L Device:CP1 C10
 U 1 1 5A7D141C
 P 7750 3850
 F 0 "C10" H 7865 3896 50  0000 L CNN
-F 1 "CP1" H 7865 3805 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_3x5.3" H 7750 3850 50  0001 C CNN
-F 3 "~" H 7750 3850 50  0001 C CNN
+F 1 "68uF" H 7865 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 7750 3850 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uud.pdf" H 7750 3850 50  0001 C CNN
+F 4 "UUD1V680MCL1GS" H 7750 3850 50  0001 C CNN "Campo4"
 	1    7750 3850
 	1    0    0    -1  
 $EndComp
@@ -199,8 +201,6 @@ Wire Wire Line
 	6650 4350 7250 4350
 Wire Wire Line
 	7250 4350 7250 4050
-Wire Wire Line
-	8050 3650 7750 3650
 Connection ~ 7750 3650
 $Comp
 L power:GND #PWR01
@@ -235,4 +235,29 @@ Wire Wire Line
 	5200 4100 4900 4100
 Wire Wire Line
 	4900 4100 4900 4050
+Text Label 7100 3650 0    60   ~ 0
+VO
+$Comp
+L Device:C C12
+U 1 1 5A7F66F8
+P 8200 3850
+F 0 "C12" H 8315 3896 50  0000 L CNN
+F 1 "100nF" H 8315 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 8238 3700 50  0001 C CNN
+F 3 "https://search.kemet.com/component-edge/download/datasheet/C1206C104K5RACTU.pdf" H 8200 3850 50  0001 C CNN
+F 4 "C1206C104K5RAC7867" H 8200 3850 50  0001 C CNN "Campo4"
+	1    8200 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3700 8200 3650
+Wire Wire Line
+	7750 3650 8200 3650
+Wire Wire Line
+	8350 3650 8200 3650
+Connection ~ 8200 3650
+Wire Wire Line
+	8200 4000 8200 4050
+Wire Wire Line
+	8200 4050 7750 4050
 $EndSCHEMATC

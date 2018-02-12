@@ -37,7 +37,7 @@ U 1 1 56D598FF
 P 8250 4200
 F 0 "P1" H 8250 4550 50  0000 C CNN
 F 1 "POWER I/O" V 8350 4200 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0515_1x05_P3.00mm_Vertical" H 8250 4200 50  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-5_P5.08mm" H 8250 4200 50  0001 C CNN
 F 3 "" H 8250 4200 50  0000 C CNN
 	1    8250 4200
 	1    0    0    -1  
@@ -172,7 +172,7 @@ U 1 1 56E01680
 P 5000 2500
 F 0 "U5" H 5129 2553 60  0000 L CNN
 F 1 "Z0103MN 5AA4" H 5129 2447 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 4950 2200 60  0001 C CNN
+F 2 "Devices_MSS:SOT-223-Z01" H 4950 2200 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/af/ee/c1/7b/df/8a/46/d7/CD00002268.pdf/files/CD00002268.pdf/jcr:content/translations/en.CD00002268.pdf" H 4950 2100 60  0001 C CNN
 F 4 "Z0103MN 5AA4" H 5000 2500 50  0001 C CNN "Campo4"
 	1    5000 2500
@@ -184,7 +184,7 @@ U 1 1 56E01A0B
 P 5000 4500
 F 0 "U6" H 5129 4553 60  0000 L CNN
 F 1 "Z0103MN 5AA4" H 5129 4447 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 4950 4200 60  0001 C CNN
+F 2 "Devices_MSS:SOT-223-Z01" H 4950 4200 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/af/ee/c1/7b/df/8a/46/d7/CD00002268.pdf/files/CD00002268.pdf/jcr:content/translations/en.CD00002268.pdf" H 4950 4100 60  0001 C CNN
 F 4 "Z0103MN 5AA4" H 5000 4500 50  0001 C CNN "Campo4"
 	1    5000 4500
@@ -196,7 +196,7 @@ U 1 1 56E01C28
 P 5000 6350
 F 0 "U7" H 5129 6403 60  0000 L CNN
 F 1 "Z0103MN 5AA4" H 5129 6297 60  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 4950 6050 60  0001 C CNN
+F 2 "Devices_MSS:SOT-223-Z01" H 4950 6050 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/af/ee/c1/7b/df/8a/46/d7/CD00002268.pdf/files/CD00002268.pdf/jcr:content/translations/en.CD00002268.pdf" H 4950 5950 60  0001 C CNN
 F 4 "Z0103MN 5AA4" H 5000 6350 50  0001 C CNN "Campo4"
 	1    5000 6350
@@ -230,7 +230,7 @@ U 1 1 56FDDED3
 P 5550 2300
 F 0 "R9" V 5630 2300 50  0000 C CNN
 F 1 "100" V 5550 2300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5480 2300 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.24x2.70mm_HandSolder" V 5480 2300 50  0001 C CNN
 F 3 "" H 5550 2300 50  0000 C CNN
 	1    5550 2300
 	1    0    0    -1  
@@ -241,7 +241,7 @@ U 1 1 56FDE044
 P 5550 4300
 F 0 "R10" V 5630 4300 50  0000 C CNN
 F 1 "100" V 5550 4300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5480 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.24x2.70mm_HandSolder" V 5480 4300 50  0001 C CNN
 F 3 "" H 5550 4300 50  0000 C CNN
 	1    5550 4300
 	1    0    0    -1  
@@ -274,7 +274,7 @@ U 1 1 56FDE373
 P 5550 6150
 F 0 "R11" V 5630 6150 50  0000 C CNN
 F 1 "100" V 5550 6150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" V 5480 6150 50  0001 C CNN
+F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.24x2.70mm_HandSolder" V 5480 6150 50  0001 C CNN
 F 3 "" H 5550 6150 50  0000 C CNN
 	1    5550 6150
 	1    0    0    -1  
@@ -308,8 +308,8 @@ P 5550 6650
 AR Path="/56FDEE79" Ref="C6"  Part="1" 
 AR Path="/56D4C343/56D4C3A8/56FDEE79" Ref="C6"  Part="1" 
 F 0 "C6" H 5575 6750 50  0000 L CNN
-F 1 "100nf" H 5575 6550 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm" H 5588 6500 50  0001 C CNN
+F 1 "100nF" H 5575 6550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2225_5664Metric_Pad1.78x6.70mm_HandSolder" H 5588 6500 50  0001 C CNN
 F 3 "" H 5550 6650 50  0000 C CNN
 	1    5550 6650
 	1    0    0    -1  
@@ -321,8 +321,8 @@ P 5550 4800
 AR Path="/56FDF00C" Ref="C5"  Part="1" 
 AR Path="/56D4C343/56D4C3A8/56FDF00C" Ref="C5"  Part="1" 
 F 0 "C5" H 5575 4900 50  0000 L CNN
-F 1 "100nf" H 5575 4700 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm" H 5588 4650 50  0001 C CNN
+F 1 "100nF" H 5575 4700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2225_5664Metric_Pad1.78x6.70mm_HandSolder" H 5588 4650 50  0001 C CNN
 F 3 "" H 5550 4800 50  0000 C CNN
 	1    5550 4800
 	1    0    0    -1  
@@ -334,8 +334,8 @@ P 5550 2800
 AR Path="/56FDF295" Ref="C4"  Part="1" 
 AR Path="/56D4C343/56D4C3A8/56FDF295" Ref="C4"  Part="1" 
 F 0 "C4" H 5575 2900 50  0000 L CNN
-F 1 "100nf" H 5575 2700 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm" H 5588 2650 50  0001 C CNN
+F 1 "100nF" H 5575 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_2225_5664Metric_Pad1.78x6.70mm_HandSolder" H 5588 2650 50  0001 C CNN
 F 3 "" H 5550 2800 50  0000 C CNN
 	1    5550 2800
 	1    0    0    -1  
