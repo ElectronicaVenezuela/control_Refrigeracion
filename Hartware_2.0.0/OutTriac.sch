@@ -309,8 +309,9 @@ AR Path="/56FDEE79" Ref="C6"  Part="1"
 AR Path="/56D4C343/56D4C3A8/56FDEE79" Ref="C6"  Part="1" 
 F 0 "C6" H 5575 6750 50  0000 L CNN
 F 1 "100nF" H 5575 6550 50  0000 L CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric_Pad1.78x6.70mm_HandSolder" H 5588 6500 50  0001 C CNN
-F 3 "" H 5550 6650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 5588 6500 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR72E104KW03-01.pdf" H 5550 6650 50  0001 C CNN
+F 4 "GRM31CR72E104KW03L" H 5550 6650 50  0001 C CNN "Campo4"
 	1    5550 6650
 	1    0    0    -1  
 $EndComp
@@ -322,8 +323,9 @@ AR Path="/56FDF00C" Ref="C5"  Part="1"
 AR Path="/56D4C343/56D4C3A8/56FDF00C" Ref="C5"  Part="1" 
 F 0 "C5" H 5575 4900 50  0000 L CNN
 F 1 "100nF" H 5575 4700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric_Pad1.78x6.70mm_HandSolder" H 5588 4650 50  0001 C CNN
-F 3 "" H 5550 4800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 5588 4650 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR72E104KW03-01.pdf" H 5550 4800 50  0001 C CNN
+F 4 "GRM31CR72E104KW03L" H 5550 4800 50  0001 C CNN "Campo4"
 	1    5550 4800
 	1    0    0    -1  
 $EndComp
@@ -335,8 +337,9 @@ AR Path="/56FDF295" Ref="C4"  Part="1"
 AR Path="/56D4C343/56D4C3A8/56FDF295" Ref="C4"  Part="1" 
 F 0 "C4" H 5575 2900 50  0000 L CNN
 F 1 "100nF" H 5575 2700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_2225_5664Metric_Pad1.78x6.70mm_HandSolder" H 5588 2650 50  0001 C CNN
-F 3 "" H 5550 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder" H 5588 2650 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR72E104KW03-01.pdf" H 5550 2800 50  0001 C CNN
+F 4 "GRM31CR72E104KW03L" H 5550 2800 50  0001 C CNN "Campo4"
 	1    5550 2800
 	1    0    0    -1  
 $EndComp

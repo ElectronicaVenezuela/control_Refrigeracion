@@ -247,10 +247,10 @@ F 4 "1N4148X-TP" H 5850 1800 50  0001 C CNN "Campo4"
 $EndComp
 Wire Wire Line
 	5850 1650 5850 1500
-Text GLabel 5950 2000 2    60   Input ~ 0
+Text GLabel 6200 2000 2    60   Input ~ 0
 VDDP
 Wire Wire Line
-	5950 2000 5850 2000
+	6200 2000 5850 2000
 $Comp
 L Connector_Generic:Conn_01x05 P4
 U 1 1 5700509C
