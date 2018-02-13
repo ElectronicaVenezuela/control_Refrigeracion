@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/mss/git/controlderefrigeracioncomercial/Hartware_2.0.0/D21_2550.sch</source>
-    <date>sáb 10 feb 2018 18:58:43 -05</date>
+    <date>mar 13 feb 2018 11:15:03 -05</date>
     <tool>Eeschema no-vcs-found-a35cc44~61~ubuntu16.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -211,7 +211,7 @@
       <tstamp>5A7D40B9</tstamp>
     </comp>
     <comp ref="C12">
-      <value>0.1uF</value>
+      <value>100nF</value>
       <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder</footprint>
       <datasheet>https://search.kemet.com/component-edge/download/datasheet/C1206C104K5RACTU.pdf</datasheet>
       <fields>
@@ -235,6 +235,10 @@
     <comp ref="C2">
       <value>33pf</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>https://search.kemet.com/component-edge/download/datasheet/C0805C103K5RACTU.pdf</datasheet>
+      <fields>
+        <field name="Campo4">C0805C103K5RACTU</field>
+      </fields>
       <libsource lib="Device" part="C"/>
       <sheetpath names="/Cerebro/" tstamps="/56D4C343/"/>
       <tstamp>56FCC56B</tstamp>
@@ -242,6 +246,10 @@
     <comp ref="C3">
       <value>33pf</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>https://search.kemet.com/component-edge/download/datasheet/C0805C103K5RACTU.pdf</datasheet>
+      <fields>
+        <field name="Campo4">C0805C103K5RACTU</field>
+      </fields>
       <libsource lib="Device" part="C"/>
       <sheetpath names="/Cerebro/" tstamps="/56D4C343/"/>
       <tstamp>56FCC62C</tstamp>
@@ -249,27 +257,43 @@
     <comp ref="R2">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="Campo4">ERA-6AEB103V</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/" tstamps="/56D4C343/"/>
       <tstamp>56FD5F81</tstamp>
     </comp>
     <comp ref="C7">
       <value>10uf</value>
-      <footprint>Capacitor_SMD:CP_Elec_3x5.3</footprint>
+      <footprint>Capacitor_SMD:CP_Elec_4x5.3</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf</datasheet>
+      <fields>
+        <field name="Campo4">EEE-1CA100SR</field>
+      </fields>
       <libsource lib="Device" part="CP1_Small"/>
       <sheetpath names="/Cerebro/" tstamps="/56D4C343/"/>
       <tstamp>56FF296D</tstamp>
     </comp>
     <comp ref="D7">
-      <value>1N4007</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <value>1N4148X-TP</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>http://www.mccsemi.com/up_pdf/1N4148X(SOD-523).PDF</datasheet>
+      <fields>
+        <field name="Campo4">1N4148X-TP</field>
+      </fields>
       <libsource lib="Device" part="D"/>
       <sheetpath names="/Cerebro/" tstamps="/56D4C343/"/>
       <tstamp>56FF6C44</tstamp>
     </comp>
     <comp ref="D6">
-      <value>1N4007</value>
-      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <value>1N4148X-TP</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>http://www.mccsemi.com/up_pdf/1N4148X(SOD-523).PDF</datasheet>
+      <fields>
+        <field name="Campo4">1N4148X-TP</field>
+      </fields>
       <libsource lib="Device" part="D"/>
       <sheetpath names="/Cerebro/" tstamps="/56D4C343/"/>
       <tstamp>56FFEF97</tstamp>
@@ -284,6 +308,10 @@
     <comp ref="R26">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e</datasheet>
+      <fields>
+        <field name="Campo4">ESR10EZPJ221</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/" tstamps="/56D4C343/"/>
       <tstamp>57013675</tstamp>
@@ -291,6 +319,10 @@
     <comp ref="R25">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e</datasheet>
+      <fields>
+        <field name="Campo4">ESR10EZPJ221</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/" tstamps="/56D4C343/"/>
       <tstamp>57013824</tstamp>
@@ -298,6 +330,10 @@
     <comp ref="R24">
       <value>220</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e</datasheet>
+      <fields>
+        <field name="Campo4">ESR10EZPJ221</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/" tstamps="/56D4C343/"/>
       <tstamp>570138C1</tstamp>
@@ -339,6 +375,9 @@
       <value>PIC18F2550-ISO</value>
       <footprint>Package_SOIC:SOIC-28W_7.5x17.9mm_P1.27mm</footprint>
       <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</datasheet>
+      <fields>
+        <field name="Campo4">PIC18F2550-I/SO</field>
+      </fields>
       <libsource lib="MCU_Microchip_PIC18" part="PIC18F2550-ISO"/>
       <sheetpath names="/Cerebro/" tstamps="/56D4C343/"/>
       <tstamp>5A7B651E</tstamp>
@@ -346,6 +385,10 @@
     <comp ref="P1">
       <value>POWER I/O</value>
       <footprint>TerminalBlock:TerminalBlock_bornier-5_P5.08mm</footprint>
+      <datasheet>http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=282836&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Campo4">282836-5</field>
+      </fields>
       <libsource lib="Connector_Generic" part="Conn_01x05"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56D598FF</tstamp>
@@ -386,6 +429,10 @@
     <comp ref="R3">
       <value>330</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e</datasheet>
+      <fields>
+        <field name="Campo4">ESR10EZPJ331</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDDC11</tstamp>
@@ -393,6 +440,10 @@
     <comp ref="R6">
       <value>330</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e</datasheet>
+      <fields>
+        <field name="Campo4">ESR10EZPJ331</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDDD7A</tstamp>
@@ -400,6 +451,10 @@
     <comp ref="R9">
       <value>100</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.24x2.70mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="Campo4">ERA-6AEB101V</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDDED3</tstamp>
@@ -407,6 +462,10 @@
     <comp ref="R10">
       <value>100</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.24x2.70mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="Campo4">ERA-6AEB101V</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDE044</tstamp>
@@ -414,6 +473,10 @@
     <comp ref="R7">
       <value>330</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e</datasheet>
+      <fields>
+        <field name="Campo4">ESR10EZPJ331</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDE0AB</tstamp>
@@ -421,6 +484,10 @@
     <comp ref="R4">
       <value>330</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e</datasheet>
+      <fields>
+        <field name="Campo4">ESR10EZPJ331</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDE232</tstamp>
@@ -428,6 +495,10 @@
     <comp ref="R11">
       <value>100</value>
       <footprint>Resistor_SMD:R_1210_3225Metric_Pad1.24x2.70mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="Campo4">ERA-6AEB101V</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDE373</tstamp>
@@ -435,6 +506,10 @@
     <comp ref="R8">
       <value>330</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e</datasheet>
+      <fields>
+        <field name="Campo4">ESR10EZPJ331</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDE7E3</tstamp>
@@ -442,27 +517,43 @@
     <comp ref="R5">
       <value>330</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e</datasheet>
+      <fields>
+        <field name="Campo4">ESR10EZPJ331</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDE9FE</tstamp>
     </comp>
     <comp ref="C6">
-      <value>100nf</value>
-      <footprint>Capacitor_SMD:C_2225_5664Metric_Pad1.78x6.70mm_HandSolder</footprint>
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR72E104KW03-01.pdf</datasheet>
+      <fields>
+        <field name="Campo4">GRM31CR72E104KW03L</field>
+      </fields>
       <libsource lib="Device" part="C"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDEE79</tstamp>
     </comp>
     <comp ref="C5">
-      <value>100nf</value>
-      <footprint>Capacitor_SMD:C_2225_5664Metric_Pad1.78x6.70mm_HandSolder</footprint>
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR72E104KW03-01.pdf</datasheet>
+      <fields>
+        <field name="Campo4">GRM31CR72E104KW03L</field>
+      </fields>
       <libsource lib="Device" part="C"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDF00C</tstamp>
     </comp>
     <comp ref="C4">
-      <value>100nf</value>
-      <footprint>Capacitor_SMD:C_2225_5664Metric_Pad1.78x6.70mm_HandSolder</footprint>
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder</footprint>
+      <datasheet>https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR72E104KW03-01.pdf</datasheet>
+      <fields>
+        <field name="Campo4">GRM31CR72E104KW03L</field>
+      </fields>
       <libsource lib="Device" part="C"/>
       <sheetpath names="/Cerebro/Salida de potencia/" tstamps="/56D4C343/56D4C3A8/"/>
       <tstamp>56FDF295</tstamp>
@@ -536,6 +627,7 @@
     <comp ref="R12">
       <value>2.7k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
       <fields>
         <field name="Campo4">ERA-6AEB272V</field>
       </fields>
@@ -546,6 +638,7 @@
     <comp ref="R13">
       <value>2.7k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
       <fields>
         <field name="Campo4">ERA-6AEB272V</field>
       </fields>
@@ -556,6 +649,7 @@
     <comp ref="R14">
       <value>2.7k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
       <fields>
         <field name="Campo4">ERA-6AEB272V</field>
       </fields>
@@ -608,14 +702,14 @@
       <tstamp>5A833CD2</tstamp>
     </comp>
     <comp ref="P2">
-      <value>CONN_01X02</value>
+      <value>TA</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x02"/>
       <sheetpath names="/Cerebro/Acond NTC/" tstamps="/56D4C343/56D55A1E/"/>
       <tstamp>56D55FD7</tstamp>
     </comp>
     <comp ref="P3">
-      <value>CONN_01X02</value>
+      <value>TR</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical</footprint>
       <libsource lib="Connector_Generic" part="Conn_01x02"/>
       <sheetpath names="/Cerebro/Acond NTC/" tstamps="/56D4C343/56D55A1E/"/>
@@ -624,6 +718,10 @@
     <comp ref="R18">
       <value>20k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>http://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf</datasheet>
+      <fields>
+        <field name="Campo4">RG2012P-203-B-T5</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Acond NTC/" tstamps="/56D4C343/56D55A1E/"/>
       <tstamp>56FD73A4</tstamp>
@@ -631,34 +729,54 @@
     <comp ref="R19">
       <value>20k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>http://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf</datasheet>
+      <fields>
+        <field name="Campo4">RG2012P-203-B-T5</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Acond NTC/" tstamps="/56D4C343/56D55A1E/"/>
       <tstamp>56FD753F</tstamp>
     </comp>
     <comp ref="SW3">
-      <value>SW_PUSH</value>
-      <footprint>Button_Switch_SMD:SW_SPST_EVPBF</footprint>
+      <value>TL3301AF160QG</value>
+      <footprint>Devices_MSS:TL3301AF160QG</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010516.pdf</datasheet>
+      <fields>
+        <field name="Campo4">TL3301AF160QG</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push"/>
       <sheetpath names="/Cerebro/Botones/" tstamps="/56D4C343/56D56ED8/"/>
       <tstamp>56F1AEBD</tstamp>
     </comp>
     <comp ref="SW4">
-      <value>SW_PUSH</value>
-      <footprint>Button_Switch_SMD:SW_SPST_EVPBF</footprint>
+      <value>TL3301AF160QG</value>
+      <footprint>Devices_MSS:TL3301AF160QG</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010516.pdf</datasheet>
+      <fields>
+        <field name="Campo4">TL3305AF260QG</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push"/>
       <sheetpath names="/Cerebro/Botones/" tstamps="/56D4C343/56D56ED8/"/>
       <tstamp>56F1AF0A</tstamp>
     </comp>
     <comp ref="SW1">
-      <value>SW_PUSH</value>
-      <footprint>Button_Switch_SMD:SW_SPST_EVPBF</footprint>
+      <value>TL3301AF160QG</value>
+      <footprint>Devices_MSS:TL3301AF160QG</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010516.pdf</datasheet>
+      <fields>
+        <field name="Campo4">TL3301AF160QG</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push"/>
       <sheetpath names="/Cerebro/Botones/" tstamps="/56D4C343/56D56ED8/"/>
       <tstamp>56F1AF41</tstamp>
     </comp>
     <comp ref="SW2">
-      <value>SW_PUSH</value>
-      <footprint>Button_Switch_SMD:SW_SPST_EVPBF</footprint>
+      <value>TL3301AF160QG</value>
+      <footprint>Devices_MSS:TL3301AF160QG</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/P010516.pdf</datasheet>
+      <fields>
+        <field name="Campo4">TL3301AF160QG</field>
+      </fields>
       <libsource lib="Switch" part="SW_Push"/>
       <sheetpath names="/Cerebro/Botones/" tstamps="/56D4C343/56D56ED8/"/>
       <tstamp>56F1AF64</tstamp>
@@ -666,6 +784,10 @@
     <comp ref="R20">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="Campo4">ERA-6AEB103V</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Botones/" tstamps="/56D4C343/56D56ED8/"/>
       <tstamp>56FD7B86</tstamp>
@@ -673,6 +795,10 @@
     <comp ref="R22">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="Campo4">ERA-6AEB103V</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Botones/" tstamps="/56D4C343/56D56ED8/"/>
       <tstamp>56FD7C8A</tstamp>
@@ -680,6 +806,10 @@
     <comp ref="R23">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="Campo4">ERA-6AEB103V</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Botones/" tstamps="/56D4C343/56D56ED8/"/>
       <tstamp>56FD7D5D</tstamp>
@@ -687,6 +817,10 @@
     <comp ref="R21">
       <value>10k</value>
       <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf</datasheet>
+      <fields>
+        <field name="Campo4">ERA-6AEB103V</field>
+      </fields>
       <libsource lib="Device" part="R"/>
       <sheetpath names="/Cerebro/Botones/" tstamps="/56D4C343/56D56ED8/"/>
       <tstamp>56FD7F21</tstamp>
@@ -1276,36 +1410,36 @@
       <node ref="D11" pin="15"/>
     </net>
     <net code="39" name="VDDP">
+      <node ref="U1" pin="20"/>
       <node ref="P4" pin="4"/>
       <node ref="D6" pin="1"/>
-      <node ref="U1" pin="20"/>
     </net>
     <net code="40" name="Net-(C7-Pad1)">
-      <node ref="C7" pin="1"/>
       <node ref="D7" pin="2"/>
+      <node ref="C7" pin="1"/>
       <node ref="R2" pin="2"/>
     </net>
     <net code="41" name="Net-(R4-Pad1)">
-      <node ref="U3" pin="2"/>
       <node ref="R4" pin="1"/>
+      <node ref="U3" pin="2"/>
     </net>
     <net code="42" name="Net-(C6-Pad1)">
       <node ref="C6" pin="1"/>
       <node ref="R11" pin="2"/>
     </net>
     <net code="43" name="Net-(C5-Pad1)">
-      <node ref="R10" pin="2"/>
       <node ref="C5" pin="1"/>
+      <node ref="R10" pin="2"/>
     </net>
     <net code="44" name="Net-(R8-Pad2)">
-      <node ref="U4" pin="6"/>
       <node ref="R8" pin="2"/>
+      <node ref="U4" pin="6"/>
     </net>
     <net code="45" name="RE">
       <node ref="U7" pin="2"/>
-      <node ref="P1" pin="2"/>
       <node ref="R11" pin="1"/>
       <node ref="R8" pin="1"/>
+      <node ref="P1" pin="4"/>
     </net>
     <net code="46" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1"/>
@@ -1313,7 +1447,7 @@
     </net>
     <net code="47" name="CO">
       <node ref="R9" pin="1"/>
-      <node ref="P1" pin="4"/>
+      <node ref="P1" pin="2"/>
       <node ref="R6" pin="1"/>
       <node ref="U5" pin="2"/>
     </net>
@@ -1330,15 +1464,15 @@
       <node ref="U2" pin="3"/>
     </net>
     <net code="51" name="Net-(U2-Pad4)">
-      <node ref="U2" pin="4"/>
       <node ref="U5" pin="3"/>
+      <node ref="U2" pin="4"/>
     </net>
     <net code="52" name="Net-(U2-Pad5)">
       <node ref="U2" pin="5"/>
     </net>
     <net code="53" name="Net-(R6-Pad2)">
-      <node ref="R6" pin="2"/>
       <node ref="U2" pin="6"/>
+      <node ref="R6" pin="2"/>
     </net>
     <net code="54" name="Net-(C4-Pad1)">
       <node ref="R9" pin="2"/>

@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mss/git/controlderefrigeracioncomercial/Hartware_2.0.0/D21_2550.sch)
-    (date "mar 13 feb 2018 10:38:03 -05")
+    (date "mar 13 feb 2018 11:13:41 -05")
     (tool "Eeschema no-vcs-found-a35cc44~61~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -221,7 +221,10 @@
       (tstamp 56FD5F81))
     (comp (ref C7)
       (value 10uf)
-      (footprint Capacitor_SMD:CP_Elec_3x5.3)
+      (footprint Capacitor_SMD:CP_Elec_4x5.3)
+      (datasheet https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf)
+      (fields
+        (field (name Campo4) EEE-1CA100SR))
       (libsource (lib Device) (part CP1_Small))
       (sheetpath (names /Cerebro/) (tstamps /56D4C343/))
       (tstamp 56FF296D))
