@@ -171,7 +171,8 @@ AR Path="/56D4C343/56FCC56B" Ref="C2"  Part="1"
 F 0 "C2" H 1875 4650 50  0000 L CNN
 F 1 "33pf" H 1875 4450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 1888 4400 50  0001 C CNN
-F 3 "" H 1850 4550 50  0000 C CNN
+F 3 "https://search.kemet.com/component-edge/download/datasheet/C0805C103K5RACTU.pdf" H 1850 4550 50  0001 C CNN
+F 4 "C0805C103K5RACTU" H 1850 4550 50  0001 C CNN "Campo4"
 	1    1850 4550
 	1    0    0    -1  
 $EndComp
@@ -184,7 +185,8 @@ AR Path="/56D4C343/56FCC62C" Ref="C3"  Part="1"
 F 0 "C3" H 2375 4650 50  0000 L CNN
 F 1 "33pf" H 2375 4450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder" H 2388 4400 50  0001 C CNN
-F 3 "" H 2350 4550 50  0000 C CNN
+F 3 "https://search.kemet.com/component-edge/download/datasheet/C0805C103K5RACTU.pdf" H 2350 4550 50  0001 C CNN
+F 4 "C0805C103K5RACTU" H 2350 4550 50  0001 C CNN "Campo4"
 	1    2350 4550
 	1    0    0    -1  
 $EndComp
@@ -199,7 +201,8 @@ P 10100 5150
 F 0 "R2" V 10180 5150 50  0000 C CNN
 F 1 "10k" V 10100 5150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 10030 5150 50  0001 C CNN
-F 3 "" H 10100 5150 50  0000 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 10100 5150 50  0001 C CNN
+F 4 "ERA-6AEB103V" V 10100 5150 50  0001 C CNN "Campo4"
 	1    10100 5150
 	1    0    0    -1  
 $EndComp
@@ -293,7 +296,8 @@ P 9150 3450
 F 0 "R26" V 9230 3450 50  0000 C CNN
 F 1 "220" V 9150 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 9080 3450 50  0001 C CNN
-F 3 "" H 9150 3450 50  0000 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 9150 3450 50  0001 C CNN
+F 4 "ESR10EZPJ221" V 9150 3450 50  0001 C CNN "Campo4"
 	1    9150 3450
 	1    0    0    -1  
 $EndComp
@@ -304,7 +308,8 @@ P 8850 3450
 F 0 "R25" V 8930 3450 50  0000 C CNN
 F 1 "220" V 8850 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 8780 3450 50  0001 C CNN
-F 3 "" H 8850 3450 50  0000 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 8850 3450 50  0001 C CNN
+F 4 "ESR10EZPJ221" V 8850 3450 50  0001 C CNN "Campo4"
 	1    8850 3450
 	1    0    0    -1  
 $EndComp
@@ -315,7 +320,8 @@ P 8500 3450
 F 0 "R24" V 8580 3450 50  0000 C CNN
 F 1 "220" V 8500 3450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 8430 3450 50  0001 C CNN
-F 3 "" H 8500 3450 50  0000 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 8500 3450 50  0001 C CNN
+F 4 "ESR10EZPJ221" V 8500 3450 50  0001 C CNN "Campo4"
 	1    8500 3450
 	1    0    0    -1  
 $EndComp

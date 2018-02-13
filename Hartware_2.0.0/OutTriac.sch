@@ -38,7 +38,8 @@ P 8250 4200
 F 0 "P1" H 8250 4550 50  0000 C CNN
 F 1 "POWER I/O" V 8350 4200 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-5_P5.08mm" H 8250 4200 50  0001 C CNN
-F 3 "" H 8250 4200 50  0000 C CNN
+F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282836&DocType=Customer+Drawing&DocLang=English" H 8250 4200 50  0001 C CNN
+F 4 "282836-5" H 8250 4200 50  0001 C CNN "Campo4"
 	1    8250 4200
 	1    0    0    -1  
 $EndComp
@@ -70,11 +71,11 @@ Connection ~ 5300 3150
 Text GLabel 5950 1950 2    60   Input ~ 0
 CO
 Connection ~ 5550 1950
-Text GLabel 7900 4100 0    60   Output ~ 0
+Text GLabel 7900 4300 0    60   Output ~ 0
 RE
 Text GLabel 7650 4200 0    60   Output ~ 0
 VE
-Text GLabel 7900 4300 0    60   Output ~ 0
+Text GLabel 7900 4100 0    60   Output ~ 0
 CO
 Wire Wire Line
 	8050 4000 7650 4000
@@ -209,7 +210,8 @@ P 3150 2900
 F 0 "R3" V 3230 2900 50  0000 C CNN
 F 1 "330" V 3150 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 3080 2900 50  0001 C CNN
-F 3 "" H 3150 2900 50  0000 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 3150 2900 50  0001 C CNN
+F 4 "ESR10EZPJ331" V 3150 2900 50  0001 C CNN "Campo4"
 	1    3150 2900
 	1    0    0    -1  
 $EndComp
@@ -220,7 +222,8 @@ P 4400 1950
 F 0 "R6" V 4480 1950 50  0000 C CNN
 F 1 "330" V 4400 1950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 4330 1950 50  0001 C CNN
-F 3 "" H 4400 1950 50  0000 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 4400 1950 50  0001 C CNN
+F 4 "ESR10EZPJ331" V 4400 1950 50  0001 C CNN "Campo4"
 	1    4400 1950
 	0    1    1    0   
 $EndComp
@@ -231,7 +234,8 @@ P 5550 2300
 F 0 "R9" V 5630 2300 50  0000 C CNN
 F 1 "100" V 5550 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.24x2.70mm_HandSolder" V 5480 2300 50  0001 C CNN
-F 3 "" H 5550 2300 50  0000 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5550 2300 50  0001 C CNN
+F 4 "ERA-6AEB101V" V 5550 2300 50  0001 C CNN "Campo4"
 	1    5550 2300
 	1    0    0    -1  
 $EndComp
@@ -242,7 +246,8 @@ P 5550 4300
 F 0 "R10" V 5630 4300 50  0000 C CNN
 F 1 "100" V 5550 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.24x2.70mm_HandSolder" V 5480 4300 50  0001 C CNN
-F 3 "" H 5550 4300 50  0000 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5550 4300 50  0001 C CNN
+F 4 "ERA-6AEB101V" V 5550 4300 50  0001 C CNN "Campo4"
 	1    5550 4300
 	1    0    0    -1  
 $EndComp
@@ -253,7 +258,8 @@ P 4400 3950
 F 0 "R7" V 4480 3950 50  0000 C CNN
 F 1 "330" V 4400 3950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 4330 3950 50  0001 C CNN
-F 3 "" H 4400 3950 50  0000 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 4400 3950 50  0001 C CNN
+F 4 "ESR10EZPJ331" V 4400 3950 50  0001 C CNN "Campo4"
 	1    4400 3950
 	0    1    1    0   
 $EndComp
@@ -264,7 +270,8 @@ P 3150 4900
 F 0 "R4" V 3230 4900 50  0000 C CNN
 F 1 "330" V 3150 4900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 3080 4900 50  0001 C CNN
-F 3 "" H 3150 4900 50  0000 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 3150 4900 50  0001 C CNN
+F 4 "ESR10EZPJ331" V 3150 4900 50  0001 C CNN "Campo4"
 	1    3150 4900
 	1    0    0    -1  
 $EndComp
@@ -275,7 +282,8 @@ P 5550 6150
 F 0 "R11" V 5630 6150 50  0000 C CNN
 F 1 "100" V 5550 6150 50  0000 C CNN
 F 2 "Resistor_SMD:R_1210_3225Metric_Pad1.24x2.70mm_HandSolder" V 5480 6150 50  0001 C CNN
-F 3 "" H 5550 6150 50  0000 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 5550 6150 50  0001 C CNN
+F 4 "ERA-6AEB101V" V 5550 6150 50  0001 C CNN "Campo4"
 	1    5550 6150
 	1    0    0    -1  
 $EndComp
@@ -286,7 +294,8 @@ P 4400 5800
 F 0 "R8" V 4480 5800 50  0000 C CNN
 F 1 "330" V 4400 5800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 4330 5800 50  0001 C CNN
-F 3 "" H 4400 5800 50  0000 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 4400 5800 50  0001 C CNN
+F 4 "ESR10EZPJ331" V 4400 5800 50  0001 C CNN "Campo4"
 	1    4400 5800
 	0    1    1    0   
 $EndComp
@@ -297,7 +306,8 @@ P 3150 6750
 F 0 "R5" V 3230 6750 50  0000 C CNN
 F 1 "330" V 3150 6750 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 3080 6750 50  0001 C CNN
-F 3 "" H 3150 6750 50  0000 C CNN
+F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 3150 6750 50  0001 C CNN
+F 4 "ESR10EZPJ331" V 3150 6750 50  0001 C CNN "Campo4"
 	1    3150 6750
 	1    0    0    -1  
 $EndComp
@@ -347,8 +357,8 @@ $Comp
 L Relay_SolidState:MOC3021M U2
 U 1 1 570033F9
 P 3550 2500
-F 0 "U2" H 3340 2690 50  0000 L CNN
-F 1 "MOC3063S-TA1" H 3550 2700 50  0000 L CNN
+F 0 "U2" H 3550 2825 50  0000 C CNN
+F 1 "MOC3063S-TA1" H 3550 2734 50  0000 C CNN
 F 2 "Devices_MSS:MOC306X" H 3350 2300 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2001-026/MOC306X%20series%20201606.pdf" H 3525 2500 50  0001 L CNN
 F 4 "MOC3063S-TA1" H 3550 2500 50  0001 C CNN "Campo4"
@@ -359,8 +369,8 @@ $Comp
 L Relay_SolidState:MOC3021M U3
 U 1 1 57004250
 P 3550 4500
-F 0 "U3" H 3340 4690 50  0000 L CNN
-F 1 "MOC3063S-TA1" H 3550 4700 50  0000 L CNN
+F 0 "U3" H 3550 4825 50  0000 C CNN
+F 1 "MOC3063S-TA1" H 3550 4734 50  0000 C CNN
 F 2 "Devices_MSS:MOC306X" H 3350 4300 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2001-026/MOC306X%20series%20201606.pdf" H 3525 4500 50  0001 L CNN
 F 4 "MOC3063S-TA1" H 3550 4500 50  0001 C CNN "Campo4"
@@ -371,8 +381,8 @@ $Comp
 L Relay_SolidState:MOC3021M U4
 U 1 1 57004690
 P 3550 6350
-F 0 "U4" H 3340 6540 50  0000 L CNN
-F 1 "MOC3063S-TA1" H 3550 6550 50  0000 L CNN
+F 0 "U4" H 3550 6675 50  0000 C CNN
+F 1 "MOC3063S-TA1" H 3550 6584 50  0000 C CNN
 F 2 "Devices_MSS:MOC306X" H 3350 6150 50  0001 L CIN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS70-2001-026/MOC306X%20series%20201606.pdf" H 3525 6350 50  0001 L CNN
 F 4 "MOC3063S-TA1" H 3550 6350 50  0001 C CNN "Campo4"

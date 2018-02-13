@@ -27,10 +27,10 @@ L Switch:SW_Push SW3
 U 1 1 56F1AEBD
 P 7100 3400
 F 0 "SW3" H 7250 3510 50  0000 C CNN
-F 1 "TL3305AF260QG" H 7100 3320 50  0000 C CNN
-F 2 "Devices_MSS:tl3305" H 7100 3400 50  0001 C CNN
-F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 7100 3400 50  0001 C CNN
-F 4 "TL3305AF260QG" H 7100 3400 50  0001 C CNN "Campo4"
+F 1 "TL3301AF160QG" H 7100 3320 50  0000 C CNN
+F 2 "Devices_MSS:TL3301AF160QG" H 7100 3400 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010516.pdf" H 7100 3400 50  0001 C CNN
+F 4 "TL3301AF160QG" H 7100 3400 50  0001 C CNN "Campo4"
 	1    7100 3400
 	1    0    0    -1  
 $EndComp
@@ -39,9 +39,9 @@ L Switch:SW_Push SW4
 U 1 1 56F1AF0A
 P 7100 4700
 F 0 "SW4" H 7250 4810 50  0000 C CNN
-F 1 "TL3305AF260QG" H 7100 4620 50  0000 C CNN
-F 2 "Devices_MSS:tl3305" H 7100 4700 50  0001 C CNN
-F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 7100 4700 50  0001 C CNN
+F 1 "TL3301AF160QG" H 7100 4620 50  0000 C CNN
+F 2 "Devices_MSS:TL3301AF160QG" H 7100 4700 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010516.pdf" H 7100 4700 50  0001 C CNN
 F 4 "TL3305AF260QG" H 7100 4700 50  0001 C CNN "Campo4"
 	1    7100 4700
 	1    0    0    -1  
@@ -51,10 +51,10 @@ L Switch:SW_Push SW1
 U 1 1 56F1AF41
 P 4300 3400
 F 0 "SW1" H 4450 3510 50  0000 C CNN
-F 1 "TL3305AF260QG" H 4300 3320 50  0000 C CNN
-F 2 "Devices_MSS:tl3305" H 4300 3400 50  0001 C CNN
-F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 4300 3400 50  0001 C CNN
-F 4 "TL3305AF260QG" H 4300 3400 50  0001 C CNN "Campo4"
+F 1 "TL3301AF160QG" H 4300 3320 50  0000 C CNN
+F 2 "Devices_MSS:TL3301AF160QG" H 4300 3400 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010516.pdf" H 4300 3400 50  0001 C CNN
+F 4 "TL3301AF160QG" H 4300 3400 50  0001 C CNN "Campo4"
 	1    4300 3400
 	1    0    0    -1  
 $EndComp
@@ -63,10 +63,10 @@ L Switch:SW_Push SW2
 U 1 1 56F1AF64
 P 4300 4700
 F 0 "SW2" H 4450 4810 50  0000 C CNN
-F 1 "TL3305AF260QG" H 4300 4620 50  0000 C CNN
-F 2 "Devices_MSS:tl3305" H 4300 4700 50  0001 C CNN
-F 3 "https://www.e-switch.com/system/asset/product_line/data_sheet/213/TL3305.pdf" H 4300 4700 50  0001 C CNN
-F 4 "TL3305AF260QG" H 4300 4700 50  0001 C CNN "Campo4"
+F 1 "TL3301AF160QG" H 4300 4620 50  0000 C CNN
+F 2 "Devices_MSS:TL3301AF160QG" H 4300 4700 50  0001 C CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P010516.pdf" H 4300 4700 50  0001 C CNN
+F 4 "TL3301AF160QG" H 4300 4700 50  0001 C CNN "Campo4"
 	1    4300 4700
 	1    0    0    -1  
 $EndComp
@@ -121,7 +121,8 @@ P 4750 2850
 F 0 "R20" V 4830 2850 50  0000 C CNN
 F 1 "10k" V 4750 2850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 4680 2850 50  0001 C CNN
-F 3 "" H 4750 2850 50  0000 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 2850 50  0001 C CNN
+F 4 "ERA-6AEB103V" V 4750 2850 50  0001 C CNN "Campo4"
 	1    4750 2850
 	1    0    0    -1  
 $EndComp
@@ -132,7 +133,8 @@ P 6700 2850
 F 0 "R22" V 6780 2850 50  0000 C CNN
 F 1 "10k" V 6700 2850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 6630 2850 50  0001 C CNN
-F 3 "" H 6700 2850 50  0000 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6700 2850 50  0001 C CNN
+F 4 "ERA-6AEB103V" V 6700 2850 50  0001 C CNN "Campo4"
 	1    6700 2850
 	1    0    0    -1  
 $EndComp
@@ -143,7 +145,8 @@ P 6700 4250
 F 0 "R23" V 6780 4250 50  0000 C CNN
 F 1 "10k" V 6700 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 6630 4250 50  0001 C CNN
-F 3 "" H 6700 4250 50  0000 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 6700 4250 50  0001 C CNN
+F 4 "ERA-6AEB103V" V 6700 4250 50  0001 C CNN "Campo4"
 	1    6700 4250
 	1    0    0    -1  
 $EndComp
@@ -154,7 +157,8 @@ P 4750 4250
 F 0 "R21" V 4830 4250 50  0000 C CNN
 F 1 "10k" V 4750 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 4680 4250 50  0001 C CNN
-F 3 "" H 4750 4250 50  0000 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 4750 4250 50  0001 C CNN
+F 4 "ERA-6AEB103V" V 4750 4250 50  0001 C CNN "Campo4"
 	1    4750 4250
 	1    0    0    -1  
 $EndComp

@@ -19,7 +19,7 @@ L Connector_Generic:Conn_01x02 P2
 U 1 1 56D55FD7
 P 3850 2950
 F 0 "P2" H 3850 3100 50  0000 C CNN
-F 1 "CONN_01X02" V 3950 2950 50  0000 C CNN
+F 1 "TA" V 3950 2950 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 3850 2950 50  0001 C CNN
 F 3 "" H 3850 2950 50  0000 C CNN
 	1    3850 2950
@@ -30,7 +30,7 @@ L Connector_Generic:Conn_01x02 P3
 U 1 1 56D56090
 P 3850 5100
 F 0 "P3" H 3850 5250 50  0000 C CNN
-F 1 "CONN_01X02" V 3950 5100 50  0000 C CNN
+F 1 "TR" V 3950 5100 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical" H 3850 5100 50  0001 C CNN
 F 3 "" H 3850 5100 50  0000 C CNN
 	1    3850 5100
@@ -51,7 +51,8 @@ P 4100 2100
 F 0 "R18" V 4180 2100 50  0000 C CNN
 F 1 "20k" V 4100 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 4030 2100 50  0001 C CNN
-F 3 "" H 4100 2100 50  0000 C CNN
+F 3 "http://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 4100 2100 50  0001 C CNN
+F 4 "RG2012P-203-B-T5" V 4100 2100 50  0001 C CNN "Campo4"
 	1    4100 2100
 	1    0    0    -1  
 $EndComp
@@ -62,7 +63,8 @@ P 4100 4500
 F 0 "R19" V 4180 4500 50  0000 C CNN
 F 1 "20k" V 4100 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 4030 4500 50  0001 C CNN
-F 3 "" H 4100 4500 50  0000 C CNN
+F 3 "http://www.susumu.co.jp/common/pdf/n_catalog_partition01_en.pdf" H 4100 4500 50  0001 C CNN
+F 4 "RG2012P-203-B-T5" V 4100 4500 50  0001 C CNN "Campo4"
 	1    4100 4500
 	1    0    0    -1  
 $EndComp
