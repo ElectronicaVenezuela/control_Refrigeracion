@@ -1,0 +1,39 @@
+### Module positions - created on Fri Feb 16 14:36:54 2018 ###
+### Printed by Pcbnew version kicad no-vcs-found-104b606~61~ubuntu16.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                                             PosX       PosY       Rot  Side
+C8        1nF             C_0805_2012Metric_Pad1.15x1.50mm_HandSolder     160.2000  -121.0575  270.0000  top
+C9        270uF           CP_Elec_6.3x7.7                                 143.0000  -125.0000   90.0000  top
+C10       68uF            CP_Elec_6.3x7.7                                 152.2000  -125.0000   90.0000  top
+C12       100nF           C_1206_3216Metric_Pad1.24x1.80mm_HandSolder     158.2000  -127.5075   90.0000  top
+D8        LED             LED_0603_1608Metric_Pad0.67x1.00mm_HandSolder   117.2600  -102.2500    0.0000  top
+D9        LED             LED_0603_1608Metric_Pad0.67x1.00mm_HandSolder   117.2600  -105.2500    0.0000  top
+D10       LED             LED_0603_1608Metric_Pad0.67x1.00mm_HandSolder   117.2600  -108.2500    0.0000  top
+L1        SDR0503-472JL   SDR0503-XXX                                     150.1500  -106.0000   90.0000  top
+L2        74479776247     L_0805_2012Metric_Pad1.15x1.50mm_HandSolder     147.2425  -132.0000    0.0000  top
+R1        300k            R_1206_3216Metric_Pad1.24x1.80mm_HandSolder     144.0000  -105.0000  270.0000  top
+R3        330             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     166.5700   -96.4900    0.0000  top
+R4        330             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     175.6200   -96.4900    0.0000  top
+R5        330             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     185.2100   -96.4900    0.0000  top
+R6        330             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     163.3425   -82.4900  180.0000  top
+R7        330             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     172.8425   -82.4900  180.0000  top
+R8        330             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     182.4625   -82.4900  180.0000  top
+R18       20k             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     132.9175  -127.1900    0.0000  top
+R19       20k             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     127.9075  -127.2300    0.0000  top
+R20       10k             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     111.0000   -89.9100  270.0000  top
+R21       10k             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     110.4400   -96.0100  270.0000  top
+R22       10k             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     127.0000   -83.9575  270.0000  top
+R23       10k             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     130.0000   -84.0425  270.0000  top
+R24       220             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     121.2600  -102.2500  180.0000  top
+R25       220             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     121.2600  -105.2500  180.0000  top
+R26       220             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     121.2600  -108.2500  180.0000  top
+SW1       TL3301AF160QG   TL3301AF160QG                                   103.0000   -89.0000    0.0000  top
+SW2       TL3301AF160QG   TL3301AF160QG                                   103.0000   -97.0000    0.0000  top
+SW3       TL3301AF160QG   TL3301AF160QG                                   119.1500   -89.0000  180.0000  top
+SW4       TL3301AF160QG   TL3301AF160QG                                   118.9700   -97.0000  180.0000  top
+TH1       Thermistor_NTC  R_0805_2012Metric_Pad1.15x1.50mm_HandSolder     143.9575  -109.0000    0.0000  top
+U2        MOC3063S-TA1    MOC306X                                         164.8260   -89.4900    0.0000  top
+U3        MOC3063S-TA1    MOC306X                                         174.3300   -89.4900    0.0000  top
+U4        MOC3063S-TA1    MOC306X                                         183.8460   -89.4900    0.0000  top
+## End

@@ -1,0 +1,32 @@
+### Module positions - created on Fri Feb 16 14:36:54 2018 ###
+### Printed by Pcbnew version kicad no-vcs-found-104b606~61~ubuntu16.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val             Package                                           PosX       PosY       Rot  Side
+C2        33pf            C_0805_2012Metric_Pad1.15x1.50mm_HandSolder   100.0000  -103.0000   90.0000  bottom
+C3        33pf            C_0805_2012Metric_Pad1.15x1.50mm_HandSolder    99.9400  -123.0425  270.0000  bottom
+C4        100nF           C_1206_3216Metric_Pad1.24x1.80mm_HandSolder   165.6585  -103.9970  270.0000  bottom
+C5        100nF           C_1206_3216Metric_Pad1.24x1.80mm_HandSolder   176.5652  -104.0003  270.0000  bottom
+C6        100nF           C_1206_3216Metric_Pad1.24x1.80mm_HandSolder   183.3566  -103.9693  270.0000  bottom
+C7        10uf            CP_Elec_4x5.3                                 107.2200  -127.1400    0.0000  bottom
+D6        1N4148X-TP      D_SOD-523                                     124.0000  -111.0000    0.0000  bottom
+D7        1N4148X-TP      D_SOD-523                                     104.3100  -123.7575  180.0000  bottom
+Q1        FZT493TA        SOT-223                                       126.8500   -84.8900    0.0000  bottom
+Q2        FZT493TA        SOT-223                                       140.6100   -85.0000    0.0000  bottom
+Q3        FZT493TA        SOT-223                                       155.0000   -85.0000    0.0000  bottom
+R2        10k             R_0805_2012Metric_Pad1.15x1.50mm_HandSolder   102.5900  -127.2625   90.0000  bottom
+R9        100             R_1210_3225Metric_Pad1.24x2.70mm_HandSolder   165.6585   -97.9736  270.0000  bottom
+R10       100             R_1210_3225Metric_Pad1.24x2.70mm_HandSolder   176.5652   -97.5958  270.0000  bottom
+R11       100             R_1210_3225Metric_Pad1.24x2.70mm_HandSolder   183.4106   -97.7413  270.0000  bottom
+R12       2.7k            R_0805_2012Metric_Pad1.15x1.50mm_HandSolder   120.0000   -85.9575  270.0000  bottom
+R13       2.7k            R_0805_2012Metric_Pad1.15x1.50mm_HandSolder   134.0000   -86.0425  270.0000  bottom
+R14       2.7k            R_0805_2012Metric_Pad1.15x1.50mm_HandSolder   148.0000   -86.0000  270.0000  bottom
+R15       22              R_2512_6332Metric_Pad1.34x3.40mm_HandSolder   130.7200   -96.0000    0.0000  bottom
+R16       22              R_2512_6332Metric_Pad1.34x3.40mm_HandSolder   140.5400   -96.0000    0.0000  bottom
+R17       22              R_2512_6332Metric_Pad1.34x3.40mm_HandSolder   150.0000   -96.0000    0.0000  bottom
+U1        PIC18F2550-ISO  SOIC-28W_7.5x17.9mm_P1.27mm                   113.0000  -113.0000    0.0000  bottom
+U5        Z0103MN 5AA4    SOT-223-Z01                                   164.9820   -89.4900  270.0000  bottom
+U6        Z0103MN 5AA4    SOT-223-Z01                                   174.1740   -89.4900  270.0000  bottom
+U7        Z0103MN 5AA4    SOT-223-Z01                                   183.5700   -89.4900  270.0000  bottom
+Y1        20MHZ           Crystal_SMD_ABLS_HC49-SD                      100.0000  -113.0000  270.0000  bottom
+## End
