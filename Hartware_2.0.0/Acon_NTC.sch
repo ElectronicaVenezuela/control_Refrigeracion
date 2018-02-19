@@ -75,9 +75,9 @@ U 1 1 5A8A68C2
 P 5350 4300
 F 0 "J1" H 5270 3875 50  0000 C CNN
 F 1 "THR" H 5270 3966 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical" H 5350 4300 50  0001 C CNN
-F 3 "https://www.digikey.com/product-detail/en/jst-sales-america-inc/B4B-XH-A-LF-SN/455-2249-ND/1651047" H 5350 4300 50  0001 C CNN
-F 4 "B4B-XH-A(LF)(SN)" H 5350 4300 50  0001 C CNN "Campo4"
+F 2 "Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal" H 5350 4300 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 5350 4300 50  0001 C CNN
+F 4 "S4B-XH-A(LF)(SN)" H 5350 4300 50  0001 C CNN "Campo4"
 	1    5350 4300
 	-1   0    0    1   
 $EndComp

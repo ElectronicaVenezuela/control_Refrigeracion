@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mss/git/controlderefrigeracioncomercial/Hartware_2.0.0/D21_2550.sch)
-    (date "dom 18 feb 2018 17:56:48 -05")
+    (date "dom 18 feb 2018 20:55:25 -05")
     (tool "Eeschema no-vcs-found-104b606~61~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -590,10 +590,10 @@
       (tstamp 56FD753F))
     (comp (ref J1)
       (value THR)
-      (footprint Connector_JST:JST_XH_B04B-XH-A_1x04_P2.50mm_Vertical)
-      (datasheet https://www.digikey.com/product-detail/en/jst-sales-america-inc/B4B-XH-A-LF-SN/455-2249-ND/1651047)
+      (footprint Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal)
+      (datasheet http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)
       (fields
-        (field (name Campo4) "B4B-XH-A(LF)(SN)"))
+        (field (name Campo4) "S4B-XH-A(LF)(SN)"))
       (libsource (lib Connector_Generic) (part Conn_01x04))
       (sheetpath (names "/Cerebro/Acond NTC/") (tstamps /56D4C343/56D55A1E/))
       (tstamp 5A8A68C2))
