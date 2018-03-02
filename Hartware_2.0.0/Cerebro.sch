@@ -108,10 +108,8 @@ F3 "S" O R 4100 2900 60
 F4 "+" O R 4100 3000 60 
 F5 "-" O R 4100 3100 60 
 $EndSheet
-Text GLabel 5850 1500 1    60   Output ~ 0
+Text GLabel 5850 1150 1    60   Output ~ 0
 VDD
-Wire Wire Line
-	5850 1950 5850 2000
 Wire Wire Line
 	7050 3200 9150 3200
 Wire Wire Line
@@ -124,12 +122,6 @@ Wire Wire Line
 	4550 3200 4650 3200
 Text GLabel 4550 3300 0    51   BiDi ~ 0
 K2
-Text GLabel 10100 4900 1    60   Input ~ 0
-VDD
-Wire Wire Line
-	10100 4900 10100 5000
-Wire Wire Line
-	10100 5300 10100 5350
 $Comp
 L Device:Crystal Y1
 U 1 1 56D64482
@@ -194,67 +186,8 @@ Wire Wire Line
 	2350 3950 2350 4150
 Wire Wire Line
 	1850 3950 1850 4150
-$Comp
-L Device:R R2
-U 1 1 56FD5F81
-P 10100 5150
-F 0 "R2" V 10180 5150 50  0000 C CNN
-F 1 "10k" V 10100 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 10030 5150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 10100 5150 50  0001 C CNN
-F 4 "ERA-6AEB103V" V 10100 5150 50  0001 C CNN "Campo4"
-	1    10100 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C7
-U 1 1 56FF296D
-P 10100 5550
-F 0 "C7" H 10110 5620 50  0000 L CNN
-F 1 "10uf" H 10110 5470 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_4x5.3" H 10100 5550 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf" H 10100 5550 50  0001 C CNN
-F 4 "EEE-1CA100SR" H 10100 5550 50  0001 C CNN "Campo4"
-	1    10100 5550
-	1    0    0    -1  
-$EndComp
-Connection ~ 10100 5350
-Wire Wire Line
-	10100 5700 10100 5650
-$Comp
-L Device:D D7
-U 1 1 56FF6C44
-P 9750 5350
-F 0 "D7" H 9750 5450 50  0000 C CNN
-F 1 "1N4148X-TP" H 9750 5250 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-523" H 9750 5350 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/1N4148X(SOD-523).PDF" H 9750 5350 50  0001 C CNN
-F 4 "1N4148X-TP" H 9750 5350 50  0001 C CNN "Campo4"
-	1    9750 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9600 5350 9450 5350
-Text GLabel 9450 5350 0    60   Output ~ 0
-VPP
-$Comp
-L Device:D D6
-U 1 1 56FFEF97
-P 5850 1800
-F 0 "D6" H 5850 1900 50  0000 C CNN
-F 1 "1N4148X-TP" H 5850 1700 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-523" H 5850 1950 50  0001 C CNN
-F 3 "http://www.mccsemi.com/up_pdf/1N4148X(SOD-523).PDF" H 5850 1800 50  0001 C CNN
-F 4 "1N4148X-TP" H 5850 1800 50  0001 C CNN "Campo4"
-	1    5850 1800
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5850 1650 5850 1500
 Text GLabel 6200 2000 2    60   Input ~ 0
 VDDP
-Wire Wire Line
-	6200 2000 5850 2000
 $Comp
 L Connector_Generic:Conn_01x05 P4
 U 1 1 5700509C
@@ -288,8 +221,6 @@ Wire Wire Line
 	7550 5850 7400 5850
 Text GLabel 4550 5000 3    60   Input ~ 0
 PGD
-Wire Wire Line
-	9900 5350 10100 5350
 $Comp
 L Device:R R26
 U 1 1 57013675
@@ -395,8 +326,6 @@ Wire Wire Line
 Wire Wire Line
 	2100 4800 2350 4800
 Wire Wire Line
-	10100 5350 10100 5450
-Wire Wire Line
 	8850 4100 9150 4100
 Wire Wire Line
 	8850 4100 8850 4150
@@ -430,17 +359,6 @@ F 3 "" H 8850 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
-U 1 1 5A7B6D43
-P 10100 5700
-F 0 "#PWR06" H 10100 5450 50  0001 C CNN
-F 1 "GND" H 10105 5527 50  0000 C CNN
-F 2 "" H 10100 5700 50  0001 C CNN
-F 3 "" H 10100 5700 50  0001 C CNN
-	1    10100 5700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR04
 U 1 1 5A7B6F79
 P 8350 5700
@@ -464,10 +382,8 @@ F 3 "" H 2100 4850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4650 3300 4550 3300
-Text GLabel 7350 3600 2    60   Input ~ 0
+Text GLabel 7650 3600 2    60   Input ~ 0
 VPP
-Wire Wire Line
-	7350 3600 7050 3600
 NoConn ~ 7050 3400
 Wire Wire Line
 	4100 4100 4400 4100
@@ -518,4 +434,44 @@ Wire Wire Line
 Connection ~ 5850 2000
 Wire Wire Line
 	4400 2200 4100 2200
+Wire Wire Line
+	7400 3550 7400 3600
+Wire Wire Line
+	7050 3600 7400 3600
+Wire Wire Line
+	7650 3600 7400 3600
+Connection ~ 7400 3600
+$Comp
+L Device:Jumper_NC_Small JP1
+U 1 1 5A93DA15
+P 5850 1600
+F 0 "JP1" V 5804 1675 50  0000 L CNN
+F 1 "pgm" V 5895 1675 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5850 1600 50  0001 C CNN
+F 3 "~" H 5850 1600 50  0001 C CNN
+	1    5850 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 2000 5850 2000
+Wire Wire Line
+	5850 1700 5850 2000
+$Comp
+L Device:R R2
+U 1 1 56FD5F81
+P 7400 3400
+F 0 "R2" V 7480 3400 50  0000 C CNN
+F 1 "10k" V 7400 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 7330 3400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" H 7400 3400 50  0001 C CNN
+F 4 "ERA-6AEB103V" V 7400 3400 50  0001 C CNN "Campo4"
+	1    7400 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1150 5850 1500
+Text GLabel 7400 2850 1    60   Output ~ 0
+VDD
+Wire Wire Line
+	7400 2850 7400 3250
 $EndSCHEMATC
