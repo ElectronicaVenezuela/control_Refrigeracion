@@ -636,7 +636,7 @@
     (pad 5 thru_hole circle (at 20.32 0) (size 3 3) (drill 1.52) (layers *.Cu *.Mask)
       (net 3 Nac))
     (model ${KISYS3DMOD}/3D_MSS/terminal_block_5.stp
-      (offset (xyz 10.15 0 8))
+      (offset (xyz 10.15 0.4 8))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 180))
     )
@@ -2022,15 +2022,10 @@
     (pad 14 thru_hole oval (at 0 -26 270) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask))
     (pad 15 thru_hole oval (at 0 -28 270) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask))
     (pad 16 thru_hole oval (at 0 -30 270) (size 1.35 1.35) (drill 0.8) (layers *.Cu *.Mask))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x16_P2.00mm_Vertical.step
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}/3D_MSS/omega2.STEP
+      (offset (xyz -5.9 1.5 28.5))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_1x16_P2.00mm_Vertical.step
-      (offset (xyz 24.4 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 180 180))
     )
   )
 
