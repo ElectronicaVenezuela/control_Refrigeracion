@@ -1,0 +1,161 @@
+EESchema Schematic File Version 4
+LIBS:omega-dock-new-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mss_devices:HCPL3700 U13
+U 1 1 5ADF6071
+P 5550 3550
+F 0 "U13" H 5550 3897 60  0000 C CNN
+F 1 "HCPL3700" H 5550 3791 60  0000 C CNN
+F 2 "Devices_MSS:SMD-8" H 5200 3550 60  0001 C CNN
+F 3 "https://www.fairchildsemi.com/datasheets/HC/HCPL3700.pdf" H 5200 3550 60  0001 C CNN
+F 4 "HCPL3700SD" H 5550 3550 50  0001 C CNN "Campo4"
+	1    5550 3550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 3350 0    60   Input ~ 0
+Vac
+Wire Wire Line
+	4900 3350 4900 3450
+Wire Wire Line
+	4900 3450 5000 3450
+Text GLabel 4000 3850 0    60   Input ~ 0
+Nac
+Wire Wire Line
+	4900 3850 4900 3750
+Wire Wire Line
+	4900 3750 5000 3750
+$Comp
+L Device:CP1 C1
+U 1 1 5ADF61EB
+P 4550 3600
+F 0 "C1" H 4665 3646 50  0000 L CNN
+F 1 "22uF" H 4665 3555 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.3" H 4550 3600 50  0001 C CNN
+F 3 "~" H 4550 3600 50  0001 C CNN
+	1    4550 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3550 4850 3550
+Wire Wire Line
+	4850 3650 5000 3650
+Wire Wire Line
+	4850 3800 4550 3800
+Wire Wire Line
+	4550 3800 4550 3750
+Wire Wire Line
+	4850 3650 4850 3800
+Wire Wire Line
+	4550 3450 4550 3400
+Wire Wire Line
+	4550 3400 4850 3400
+Wire Wire Line
+	4850 3400 4850 3550
+$Comp
+L power:GND #PWR025
+U 1 1 5ADF6C83
+P 6200 3800
+F 0 "#PWR025" H 6200 3550 50  0001 C CNN
+F 1 "GND" H 6205 3627 50  0000 C CNN
+F 2 "" H 6200 3800 50  0001 C CNN
+F 3 "" H 6200 3800 50  0001 C CNN
+	1    6200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3800 6200 3750
+Wire Wire Line
+	6200 3750 6100 3750
+$Comp
+L power:+5V #PWR014
+U 1 1 5ADF6E06
+P 6200 3200
+F 0 "#PWR014" H 6200 3050 50  0001 C CNN
+F 1 "+5V" H 6215 3373 50  0000 C CNN
+F 2 "" H 6200 3200 50  0001 C CNN
+F 3 "" H 6200 3200 50  0001 C CNN
+	1    6200 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3200 6200 3450
+Wire Wire Line
+	6200 3450 6100 3450
+$Comp
+L Device:R R19
+U 1 1 5ADF6F9D
+P 6450 3450
+F 0 "R19" H 6520 3496 50  0000 L CNN
+F 1 "10K" H 6520 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder" V 6380 3450 50  0001 C CNN
+F 3 "~" H 6450 3450 50  0001 C CNN
+	1    6450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3600 6450 3650
+Wire Wire Line
+	6450 3650 6100 3650
+$Comp
+L power:+5V #PWR032
+U 1 1 5ADF74AA
+P 6450 3200
+F 0 "#PWR032" H 6450 3050 50  0001 C CNN
+F 1 "+5V" H 6465 3373 50  0000 C CNN
+F 2 "" H 6450 3200 50  0001 C CNN
+F 3 "" H 6450 3200 50  0001 C CNN
+	1    6450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 3200 6450 3300
+Text HLabel 6750 3650 2    60   Output ~ 0
+Vt
+Wire Wire Line
+	6750 3650 6450 3650
+Connection ~ 6450 3650
+$Comp
+L Device:R R20
+U 1 1 5AE015EA
+P 4300 3350
+F 0 "R20" V 4093 3350 50  0000 C CNN
+F 1 "27K" V 4184 3350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical" V 4230 3350 50  0001 C CNN
+F 3 "~" H 4300 3350 50  0001 C CNN
+	1    4300 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R21
+U 1 1 5AE0162D
+P 4300 3850
+F 0 "R21" V 4093 3850 50  0000 C CNN
+F 1 "27K" V 4184 3850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical" V 4230 3850 50  0001 C CNN
+F 3 "~" H 4300 3850 50  0001 C CNN
+	1    4300 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 3350 4900 3350
+Wire Wire Line
+	4450 3850 4900 3850
+Wire Wire Line
+	4000 3850 4150 3850
+Wire Wire Line
+	4000 3350 4150 3350
+$EndSCHEMATC

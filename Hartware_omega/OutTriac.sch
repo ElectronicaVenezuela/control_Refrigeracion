@@ -211,7 +211,7 @@ F 0 "R12" V 3230 2350 50  0000 C CNN
 F 1 "330" V 3150 2350 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 3080 2350 50  0001 C CNN
 F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 3150 2350 50  0001 C CNN
-F 4 "ESR10EZPJ331" V 3150 2350 50  0001 C CNN "Campo4"
+F 4 "RCS0805330RFKEA" V 3150 2350 50  0001 C CNN "Campo4"
 	1    3150 2350
 	1    0    0    -1  
 $EndComp
@@ -223,7 +223,7 @@ F 0 "R15" V 4480 1400 50  0000 C CNN
 F 1 "330" V 4400 1400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 4330 1400 50  0001 C CNN
 F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 4400 1400 50  0001 C CNN
-F 4 "ESR10EZPJ331" V 4400 1400 50  0001 C CNN "Campo4"
+F 4 "RCS0805330RFKEA" V 4400 1400 50  0001 C CNN "Campo4"
 	1    4400 1400
 	0    1    1    0   
 $EndComp
@@ -260,7 +260,7 @@ F 0 "R13" V 4430 3500 50  0000 C CNN
 F 1 "330" V 4350 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 4280 3500 50  0001 C CNN
 F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 4350 3500 50  0001 C CNN
-F 4 "ESR10EZPJ331" V 4350 3500 50  0001 C CNN "Campo4"
+F 4 "RCS0805330RFKEA" V 4350 3500 50  0001 C CNN "Campo4"
 	1    4350 3500
 	0    1    1    0   
 $EndComp
@@ -272,7 +272,7 @@ F 0 "R10" V 3180 4450 50  0000 C CNN
 F 1 "330" V 3100 4450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 3030 4450 50  0001 C CNN
 F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 3100 4450 50  0001 C CNN
-F 4 "ESR10EZPJ331" V 3100 4450 50  0001 C CNN "Campo4"
+F 4 "RCS0805330RFKEA" V 3100 4450 50  0001 C CNN "Campo4"
 	1    3100 4450
 	1    0    0    -1  
 $EndComp
@@ -296,7 +296,7 @@ F 0 "R14" V 4430 5600 50  0000 C CNN
 F 1 "330" V 4350 5600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 4280 5600 50  0001 C CNN
 F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 4350 5600 50  0001 C CNN
-F 4 "ESR10EZPJ331" V 4350 5600 50  0001 C CNN "Campo4"
+F 4 "RCS0805330RFKEA" V 4350 5600 50  0001 C CNN "Campo4"
 	1    4350 5600
 	0    1    1    0   
 $EndComp
@@ -308,7 +308,7 @@ F 0 "R11" V 3180 6550 50  0000 C CNN
 F 1 "330" V 3100 6550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder" V 3030 6550 50  0001 C CNN
 F 3 "http://www.rohm.com/web/global/datasheet/ESR01MZPF/esr-e" H 3100 6550 50  0001 C CNN
-F 4 "ESR10EZPJ331" V 3100 6550 50  0001 C CNN "Campo4"
+F 4 "RCS0805330RFKEA" V 3100 6550 50  0001 C CNN "Campo4"
 	1    3100 6550
 	1    0    0    -1  
 $EndComp
