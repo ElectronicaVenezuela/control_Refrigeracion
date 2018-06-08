@@ -1,0 +1,9 @@
+{
+  "Tcomp": 1,
+  "Tvent": 1,
+  "Tdesc": 2,
+  "Fdesc": 6,
+  "t_aire": 5,
+  "t_refrig":-2,
+  "Delta_t":3
+  }

@@ -1,39 +1,40 @@
-"Item","Reference(s)","Description","Qty","Manufacturer","Mfg Part #","Package","Type","Value","Campo4","Campo5"
-"1","BT1","","1","","","Battery:BatteryHolder_Keystone_3000_1x12mm","","3V","","Battery_Cell","3000TR",""
-"2","C1","","1","","","Capacitor_SMD:CP_Elec_5x5.3","","22uF","","CP1","EEE-HA1V220WR",""
-"3","C5, C6","","2","","","Capacitor_THT:CP_Radial_D8.0mm_P3.50mm","","4,7uF","","CP1","A759KS475M2EAAE496",""
-"4","C7","","1","","","Capacitor_SMD:CP_Elec_4x5.3","","10uF","","CP1","EEE-1VA100SR",""
-"5","C8","","1","","","Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.50mm_HandSolder","","1nF","","C","C2012C0G2W102J060AA",""
-"6","C9","","1","","","Capacitor_SMD:CP_Elec_4x5.3","","100uF","","CP1","EEE-1AA101WR",""
-"7","C10","","1","","","Capacitor_SMD:CP_Elec_6.3x7.7","","270uF","","CP1","EEE-FK0J271SP",""
-"8","C11","","1","","","Capacitor_SMD:CP_Elec_6.3x7.7","","68uF","","CP1","UUD1V680MCL1GS",""
-"9","C12","","1","","","Capacitor_SMD:C_1206_3216Metric_Pad1.24x1.80mm_HandSolder","","100nF","","C","C1206X104J3JACAUTO",""
-"10","C13, C14, C15","","3","","","Capacitor_THT:C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4","","1nF","","C","R60QF1100AA01K","250Vac"
-"11","D1, D2, D3","","3","","","LED_SMD:LED_0603_1608Metric_Castellated","","LED","","LED_ALT","VLMB1300-GS08",""
-"12","D5","","1","","","Devices_MSS:MBS -1","","Bridge","","D_Bridge_+-AA","MB4S-TP",""
-"13","D6","","1","","","LED_SMD:LED_0603_1608Metric_Castellated","","LED","","LED","LS Q976-NR-1",""
-"14","J1","","1","","","Devices_MSS:USB_Micro-B_10118193-0001LF","","USB_B_Micro","","USB_B_Micro","10118193-0001LF",""
-"15","J2","","1","","","Connector_JST:JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal","","Conn_01x04","","Conn_01x04","S4B-XH-A(LF)(SN)",""
-"16","L2","","1","","","Devices_MSS:SDR0503-XXX","","SDR0503-472JL","","L_Core_Ferrite","SDR0503-472JL",""
-"17","L3","","1","","","Inductor_SMD:L_0805_2012Metric_Pad1.15x1.50mm_HandSolder","","74479776247","","L_Core_Ferrite","74479776247",""
-"18","P1","","1","","","TerminalBlock:TerminalBlock_bornier-5_P5.08mm","","POWER I/O","","Conn_01x05","282836-5",""
-"19","R1, R2, R3","","3","","","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder","","100","","R","ERA-6AEB101V",""
-"20","R4, R5","","2","","","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder","","2.2K","","R","ERA-6AEB222V",""
-"21","R6, R7","","2","","","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder","","10K","","R","RR1220P-103-D",""
-"22","R9","","1","","","Resistor_SMD:R_1206_3216Metric_Pad1.24x1.80mm_HandSolder","","300k","","R","RC1206FR-07300KL",""
-"23","R10, R11, R12, R13, R14, R15","","6","","","Resistor_SMD:R_0805_2012Metric_Pad1.15x1.50mm_HandSolder","","330","","R","RCS0805330RFKEA",""
-"24","R16, R18","","2","","","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","","33","","R","PR01000103309JR500","1W"
-"25","R17","","1","","","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","","100","","R","PR01000103309JR500",""
-"26","R19, R20","","2","","","Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder","","604K","","R","ERA-6AEB6043V",""
-"27","R21","","1","","","Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder","","10k","","R","RR1220P-103-D",""
-"28","R22","","1","","","Resistor_SMD:R_0805_2012Metric_Pad1.29x1.40mm_HandSolder","","100","","R","ERA-6AEB101V",""
-"29","RV1","","1","","","Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm","","B72214S0351K101","","Varistor","B72214S0351K101",""
-"30","U1","","1","","","Package_TO_SOT_SMD:SOT-23-6_Handsoldering","","USBLC6-2","","USBLC6-2","USBLC6-2SC6",""
-"31","U2","","1","","","Devices_MSS:OMEGA_2","","OMEGA_2","","OMEGA_2","OM-O2P",""
-"32","U3","","1","","","Package_TO_SOT_SMD:SOT-223","","AP111733","","AP111733-RESCUE-omega-dock-new","TLV1117-33CDCYR",""
-"33","U4","","1","","","Devices_MSS:PBO-3-S5","","PBO-3-S5","","PBO-3-S5","PBO-3-S5",""
-"34","U5, U6, U7","","3","","","Devices_MSS:MOC306X","","MOC3063S-TA1","","MOC3010M","MOC3063S-TA1",""
-"35","U8, U9, U10","","3","","","Devices_MSS:SOT-223-Z01","","Z0103MN 5AA4","","Q_TRIAC_A1A2G","Z0103MN 5AA4",""
-"36","U11","","1","","","Devices_MSS:PQFP-N10","","TLA2024IRUGT","","TLA2024IRUGT","TLA2024IRUGT",""
-"37","U12","","1","","","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","","DS1307Z+","","DS1307Z+","DS1307Z+T&R",""
-"38","Y1","","1","","","Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal","","32.768KHZ","","Crystal","AB38T-32.768KHZ",""
+Item,Reference(s),Description,Qty,Manufacturer,Mfg Part #,Package,Type,Value
+1,BT1,,1,,3000TR,BatteryHolder_Keystone_3000_1x12mm,,3V
+2,C1,,1,,EEE-HA1V220WR,CP_Elec_5x5.3,,22uF
+3,"C5, C6",,2,,A759KS475M2EAAE496,CP_Radial_D8.0mm_P3.50mm,,"4,7uF"
+4,C7,,1,,EEE-1VA100SR,CP_Elec_4x5.3,,10uF
+5,C8,,1,,C2012C0G2W102J060AA,C_0805_2012Metric_Pad1.15x1.50mm_HandSolder,,1nF
+6,C9,,1,,EEE-1AA101WR,CP_Elec_4x5.3,,100uF
+7,C10,,1,,EEE-FK0J271SP,CP_Elec_6.3x7.7,,270uF
+8,C11,,1,,UUD1V680MCL1GS,CP_Elec_6.3x7.7,,68uF
+9,C12,,1,,GCM21BR72A104KA37L,C_1206_3216Metric_Pad1.24x1.80mm_HandSolder,,100nF
+10,"C13, C14, C15",,3,,R60QF1100AA01K,C_Rect_L13.0mm_W4.0mm_P10.00mm_FKS3_FKP3_MKS4,,1nF
+11,"D1, D2, D3, D4, D7",,5,,VLMB1300-GS08,LED_0603_1608Metric_Castellated,,LED
+12,D5,,1,,MB4S-TP,MBS -1,,Bridge
+13,D6,,1,,LS Q976-NR-1,LED_0603_1608Metric_Castellated,,LED
+14,F1,,2,,FC-211-22,FC-211-22_M,,1A
+15,J1,,1,,DF1BZ-3P-2.5DS,HE_XDF1B_1x03_P2.50mm_Horizontal,,SI
+16,J2,,1,,DF1BZ-4P-2.5DS,JST_XH_S04B-XH-A-1_1x04_P2.50mm_Horizontal,,Termistor
+17,L2,,1,,SDR0503-472JL,SDR0503-XXX,,SDR0503-472JL
+18,L3,,1,,74479776247,L_0805_2012Metric_Pad1.15x1.50mm_HandSolder,,74479776247
+19,P1,,1,,691322110005,WE-3221 - 3.50MM,,POWER I/O
+20,"R1, R2, R3",,3,,ERA-6AEB101V,R_0805_2012Metric_Pad1.15x1.50mm_HandSolder,,100
+21,"R4, R5",,2,,ERA-6AEB222V,R_0805_2012Metric_Pad1.15x1.50mm_HandSolder,,2.2K
+22,"R6, R7",,2,,RR1220P-103-D,R_0805_2012Metric_Pad1.15x1.50mm_HandSolder,,10K
+23,"R8, R22, R24",,3,,ERA-6AEB101V,R_0805_2012Metric_Pad1.29x1.40mm_HandSolder,,100
+24,"R10, R11, R12, R13, R14, R15",,6,,RCS0805330RFKEA,R_0805_2012Metric_Pad1.15x1.50mm_HandSolder,,330
+25,"R16, R18",,2,,PR01000103309JR500,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,33
+26,R17,,1,,PR01000103309JR500,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,,100
+27,"R19, R20",,2,,ERA-6AEB6043V,R_0805_2012Metric_Pad1.29x1.40mm_HandSolder,,604K
+28,R21,,1,,RR1220P-103-D,R_0805_2012Metric_Pad1.29x1.40mm_HandSolder,,10k
+29,R23,,1,,RR1220P-103-D,R_0805_2012Metric_Pad1.29x1.40mm_HandSolder,,10K
+30,RV1,,1,,B72214S0351K101,C_Disc_D4.3mm_W1.9mm_P5.00mm,,B72214S0351K101
+31,SW1,,1,,EVQ-PUA02K,Panasonic_EVQPUL_EVQPUC,,RST
+32,U2,,1,,OM-O2P,OMEGA_2,,OMEGA_2
+33,U3,,1,,TLV1117-33CDCYR,SOT-223,,AP111733
+34,U4,,1,,PBO-3-S5,PBO-3-S5,,PBO-3-S5
+35,"U5, U6, U7",,3,,MOC3063S-TA1,MOC306X,,MOC3063S-TA1
+36,"U8, U9, U10",,3,,Z0103MN 5AA4,SOT-223-Z01,,Z0103MN 5AA4
+37,U11,,1,,TLA2024IRUGT,PQFP-N10,,TLA2024IRUGT
+38,U12,,1,,DS1307Z+T&R,SOIC-8_3.9x4.9mm_P1.27mm,,DS1307Z+
+39,Y1,,1,,AB38T-32.768KHZ,Crystal_AT310_D3.0mm_L10.0mm_Horizontal,,32.768KHZ

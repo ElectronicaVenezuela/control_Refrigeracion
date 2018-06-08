@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew no-vcs-found-104b606~61~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc2-unknown-81af2db~65~ubuntu16.04.1)
 
   (general
     (thickness 1.6)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.2)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
@@ -882,6 +882,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/3D_MSS/APT1608.STEP
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module LED_SMD:LED_0603_1608Metric_Pad0.67x1.00mm_HandSolder (layer F.Cu) (tedit 5A7F0E56) (tstamp 5A8C6F65)
@@ -920,6 +925,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/3D_MSS/APT1608.STEP
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (module LED_SMD:LED_0603_1608Metric_Pad0.67x1.00mm_HandSolder (layer F.Cu) (tedit 5A7F0E56) (tstamp 5A8C6F78)
@@ -957,6 +967,11 @@
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/3D_MSS/APT1608.STEP
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -2199,6 +2214,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-28W_7.5x17.9mm_P1.27mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Devices_MSS:SOT-223-Z01 (layer B.Cu) (tedit 5A7F13CC) (tstamp 5A8C731E)
@@ -2356,8 +2376,8 @@
       (net 1 GND))
     (pad 12 thru_hole circle (at 12.7 0 270) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask)
       (net 57 /Fuente/VO))
-    (model ${KISYS3DMOD}/3D_MSS/CUI_PBO-3-S5.step
-      (offset (xyz -87.18000000000001 -109 3.5))
+    (model ${KISYS3DMOD}/3D_MSS/CUI_PBO_3_S5.step
+      (offset (xyz -87 -109 4))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )

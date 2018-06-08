@@ -37,11 +37,11 @@ U 1 1 56D598FF
 P 8250 4200
 F 0 "P1" H 8250 4550 50  0000 C CNN
 F 1 "POWER I/O" V 8350 4200 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-5_P5.08mm" H 8250 4200 50  0001 C CNN
-F 3 "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282836&DocType=Customer+Drawing&DocLang=English" H 8250 4200 50  0001 C CNN
-F 4 "282836-5" H 8250 4200 50  0001 C CNN "Campo4"
+F 2 "Devices_MSS:WE-3221 - 3.50MM" H 8250 4200 50  0001 C CNN
+F 3 "http://katalog.we-online.de/em/datasheet/6913221100xx.pdf" H 8250 4200 50  0001 C CNN
+F 4 "691322110005" H 8250 4200 50  0001 C CNN "Campo4"
 	1    8250 4200
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	5000 1800 5000 1400
